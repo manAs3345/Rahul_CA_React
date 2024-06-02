@@ -1,0 +1,36 @@
+#members-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding:20px;
+    justify-content: space-between;
+}
+#members-container > img{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+#member-text{
+   display: flex;
+   flex-direction: column;
+}
+#member-text > h3{
+    font-size: 30px;
+}
+#member-text > div{
+    font-size:18px;
+    margin-bottom: 20px;
+}
+#qualification{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+#qualification > img{
+     width:5%;
+     margin-right: 5px;
+}
+#qualification-container{
+    display: flex;
+    margin-top: 10px;
+}

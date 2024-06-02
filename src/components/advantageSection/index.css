@@ -1,0 +1,36 @@
+#advantage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* border: 4px solid #083d5f; */
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #eaeaea;
+}
+#advantage > img{
+    width:80px;
+    height:80px;
+    margin-right: 10px;
+}
+#advantage:hover{
+    background-color: #618a3a;
+    transition: 0.25s;
+    color:white
+}
+#advantageContent > h3{
+    color: #083d5f;
+}
+/* #advantageContent > p{
+    color: #84bc50;
+} */
+
+@media screen  and (max-width:500px){
+    #advantage{
+        margin:10px;
+
+    }
+}

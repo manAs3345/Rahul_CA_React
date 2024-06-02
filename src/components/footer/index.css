@@ -1,0 +1,56 @@
+footer{
+    background-color: #083d5f;
+    color:white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer-logo{
+    width:20%;
+}
+#footer-logo > a > #logo-img{
+    width:100%;
+}
+#websitePages, #articleLinks{
+    display: flex;
+    flex-direction: column;
+}
+#websitePages a, #articleLinks a{
+    text-decoration: none;
+    color:white;
+    margin: 5px 0px 5px 0px;
+}
+#footer-section2 > p, #footer-section3 > p{
+    font-weight: bold;
+    color:#81b84d
+}
+#articleLinks a:hover{
+    transition: 0.25s;
+    color: chocolate;
+}
+#footer-section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#footer-section3 > form > input{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:0px;
+    background-color: #083d5f;
+    border-bottom: 2px solid #81b84d;
+}
+#footer-section3 > form > button{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #81b84d;
+    color: white;
+    border:0px
+}
+#footer-section3 > form{
+    margin-top: 3px;
+}
+#companyName{
+    color:#81b84d
+}

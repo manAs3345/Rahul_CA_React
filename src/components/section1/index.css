@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+#section2-content-img{
+    width:100%;
+    height:80%;
+    object-fit: cover;
+    border-radius: 5%;
+    float:left;
+}
+#section1-container{
+    display: flex;
+    /* justify-content: space-between; */
+    font-family: "Jost", sans-serif;
+    margin-top: 10px;
+}
+#section1-content-1{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:20px;
+    border-radius: 10px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+#industries-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#industry-container{
+    padding:10px;
+    background-color: cadetblue;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+#section2-content-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;;
+}

@@ -1,0 +1,88 @@
+{
+    "services": [
+        {
+            "name": "Taxation",
+            "class_name": "taxation",
+            "description": "Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.",
+            "sub_services": [
+                {
+                    "sub_service_name": "VAT Compliance",
+                    "sub_service_descriptions": [
+                        "Navigate UAE's VAT landscape confidently. We handle registration, returns, and deregistration."
+                    ]
+                },
+                {
+                    "sub_service_name": "Indian Tax Compliance",
+                    "sub_service_descriptions": [
+                        "From income tax to GST, we ensure timely filing and adherence to Indian tax norms."
+                    ]
+                },
+                {
+                    "sub_service_name": "Corporate Tax Advisory",
+                    "sub_service_descriptions": [
+                        "Optimize your tax position strategically."
+                    ]
+                },
+                {
+                    "sub_service_name": "Excise Tax",
+                    "sub_service_descriptions": [
+                        "Stay compliant with excise tax regulations."
+                    ]
+                }
+            ],
+            "image_url": "https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name": "Corporate",
+            "class_name": "corporate",
+            "description": "Unlock growth opportunities with strategic business advisory services.",
+            "sub_services": [
+                {
+                    "sub_service_name": "Company Formation",
+                    "sub_service_descriptions": [
+                        "Choose the right legal structure for your business—LLC, Free Zone, or Offshore."
+                    ]
+                },
+                {
+                    "sub_service_name": "Trade License Renewal",
+                    "sub_service_descriptions": [
+                        "Ensure uninterrupted business operations."
+                    ]
+                },
+                {
+                    "sub_service_name": "Corporate Secretarial Services",
+                    "sub_service_descriptions": [
+                        "Comply with company law requirements seamlessly."
+                    ]
+                }
+            ],
+            "image_url": "https://images.unsplash.com/photo-1527219525722-f9767a7f2884?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name": "Advisory and Assurance",
+            "class_name": "advisory_and_assurance",
+            "description": "Ensure accuracy and compliance with our comprehensive audit and assurance services.",
+            "sub_services": [
+                {
+                    "sub_service_name": "Internal Audits",
+                    "sub_service_descriptions": [
+                        "Evaluate controls, manage risks, and enhance governance."
+                    ]
+                },
+                {
+                    "sub_service_name": "Due Diligence",
+                    "sub_service_descriptions": [
+                        "Thoroughly assess financial information during mergers, acquisitions, or investments."
+                    ]
+                },
+                {
+                    "sub_service_name": "Financial Advisory",
+                    "sub_service_descriptions": [
+                        "Strategic planning for sustainable success."
+                    ]
+                }
+            ],
+            "image_url": "https://images.unsplash.com/photo-1530971013997-e06bb52a2372?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+ }

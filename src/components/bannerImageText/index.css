@@ -1,0 +1,31 @@
+#banner-image-container{
+    display: flex;
+    padding: 30px;
+    background-color: #eaeaea;
+    margin: 10px;
+    border-radius:5px;
+}
+#banner-Image {
+    object-fit: cover;
+    width:400px;
+    max-height:250px;
+    margin-right: 30px;
+}
+#banner-Btn{
+    background-color: #81b84d;
+    padding: 10px;
+    border-radius: 5px;
+    border:0px;
+    width:10%;
+}
+#banner-Btn > a{
+    text-decoration: none;
+    color:#083d5f;
+    font-weight: bold;
+    font-size: 16px;
+}
+#banner-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

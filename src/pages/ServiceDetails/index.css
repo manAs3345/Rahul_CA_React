@@ -1,0 +1,11 @@
+#service-details-img{
+    width:30%;
+    margin-right: 50px;
+}
+.bold-element{
+    font-weight: bold;
+}
+#service-details-section{
+    display: flex;
+    padding: 10px;
+}

@@ -1,0 +1,7 @@
+.hamburger-container > div{
+    background-color: #175887;
+    width: 40px;
+    height:8px;
+    margin: 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,77 @@
+#ca-logo{
+    width:20%;
+}
+#active{
+    text-decoration: none;
+    font-size: 16px;
+    color:#81b84d;
+    font-weight: bold;
+    margin: 10px;
+}
+#inactive{
+    text-decoration: none;
+    font-size: 16px;
+    color:#175887;
+    font-weight: bold;
+    margin: 10px;
+}
+#default{
+    text-decoration: none;
+    font-size: 16px;
+    color:#175887;
+    font-weight: bold;
+    margin: 10px;
+}
+/* #navbar-tabs > a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#175887;
+    font-weight: bold;
+    margin: 10px;
+} */
+#navbar-tabs > a:hover{
+    color:#81b84d;
+    transition: 0.25s;
+}
+#navbar-container{
+    justify-content: space-between;
+    align-items: center;
+}
+#hamburger-icon-container{
+    display: none;
+}
+
+#hamburger-icon-container > input{
+    display:none;
+}
+
+@media screen and (max-width:500px){
+    #navbar-container > label{
+        display: block;
+    }
+    #navbar-tabs{
+        display: none;
+    }
+    #ca-logo{
+        width:50%;
+        float: left;
+    }
+    #navbar-tabs > a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        clear: both;
+    }
+    #hamburger-icon-container{
+        display: block;
+    }
+    /* #navbar-container{
+        display: block;
+    } */
+    #hamburger{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}
