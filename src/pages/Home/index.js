@@ -37,7 +37,7 @@ export function Home(){
     //popular service names
     const ps1 = "Taxation";
     const ps2 = "Audit and Assurance";
-    const ps3 = "Business and Advisory";
+    const ps3 = "Business Advisory";
     const ps4 = "Accounting";
 
     const psd1 = "Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.";
@@ -95,7 +95,7 @@ export function Home(){
                 </div>
                 <h1 id="sub-heading">Want to reach out to us?</h1>
                 <div id="reach-out-container">
-                    <BannerImageText Image={contactBannerImg} bannerHeading="Don't worry! We're here!" bannerSubText={bannerSettings} bannerButtonText="Contact Us"/>
+                    <BannerImageText Image={contactBannerImg} bannerHeading="Don't worry! We're here!" bannerSubText={bannerSettings} bannerButtonText="Contact Us" buttonLinkPath='/contact'/>
                 </div>
             </div>
             <Footer/>

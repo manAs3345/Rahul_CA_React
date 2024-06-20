@@ -108,7 +108,7 @@ export function Topnavbar(){
                 <Link to="/" onClick={()=>{setCurrentPage("home")}} className='home'>Home</Link>
                 <Link to="/about" onClick={()=>{setCurrentPage("about")}} className='about'>About Us</Link>
                 <Link to="/services" onClick={()=>{setCurrentPage("services")}} className='services'>Our Services</Link>
-                <Link onClick={()=>{setCurrentPage("contact")}} className='contact'>Contact Us</Link>
+                <Link onClick={()=>{setCurrentPage("contact")}} className='contact' to='/contact'>Contact Us</Link>
             </div>
         </div>
     );

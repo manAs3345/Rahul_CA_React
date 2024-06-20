@@ -5,6 +5,7 @@ import {About} from './pages/About';
 import { Services } from './pages/Services';
 import { ServiceDetails } from './pages/ServiceDetails';
 import { createContext, useState } from 'react';
+import { Contact } from './pages/Contact';
 
 export const PagesContext = createContext();
 export const CountryContext = createContext();
@@ -20,6 +21,7 @@ function App() {
             <Route path='/about' element={<About/>}/>
             <Route path='/services' element={<Services/>}/>
             <Route path='/serviceDetails' element={<ServiceDetails/>}/>
+            <Route path='/contact' element={<Contact></Contact>}/>
         </Routes>
       </PagesContext.Provider>
     </CountryContext.Provider>

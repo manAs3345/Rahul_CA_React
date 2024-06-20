@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 #HomePageBannerImage{
     width:100%;
     object-fit: cover;
     height:100%;
+   
 }
 #home-banner-container{
     width:100%;
@@ -19,7 +21,12 @@
     justify-content: center;
     align-items: center;
     color:white;
-    /* text-align: center; */
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+#cta-black-overlay > h1{
+    font-family: "PT Serif", serif;
+    font-size: 40px;
 }
 #cta-btns{
     display: inline-block;
