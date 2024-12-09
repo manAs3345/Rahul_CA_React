@@ -10,10 +10,14 @@ import { Contact } from './pages/Contact';
 export const PagesContext = createContext();
 export const CountryContext = createContext();
 
+
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   const [currentCountry, setCurrentCountry] = useState('india');
   return (
+    // <div>
+    //   <button>Learn More</button>
+    // </div>
     <CountryContext.Provider value={{currentCountry, setCurrentCountry}}>
       <PagesContext.Provider value={{currentPage,setCurrentPage}}>
         <Routes>

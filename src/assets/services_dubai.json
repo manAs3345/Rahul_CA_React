@@ -1,6 +1,56 @@
 {
     "services": [
         {
+            "name": "Outsourcing",
+            "class_name": "outsourcing",
+            "description": "Remote accounting and taxation services from India, offering reliable support for UAE businesses at competitive monthly rates.",
+            "sub_services": [
+                {
+                    "sub_service_name": "Accounting and Taxation Services",
+                    "sub_service_descriptions": [
+                        "Affordable accounting and taxation services starting from AED 300 per month."
+                    ]
+                },
+                {
+                    "sub_service_name": "Accounts Payable Management",
+                    "sub_service_descriptions": [
+                        "Receipt and verification of purchase orders.",
+                        "Processing and reconciliation of supplier invoices.",
+                        "Purchase order and invoice matching.",
+                        "Invoice clearance and approval for payment.",
+                        "Processing and scheduling of payments to suppliers."
+                    ]
+                },
+                {
+                    "sub_service_name": "Tax Compliance and Reporting",
+                    "sub_service_descriptions": [
+                        "Preparation and submission of tax returns.",
+                        "Adherence to UAE tax regulations and timelines."
+                    ]
+                },
+                {
+                    "sub_service_name": "Financial Reporting",
+                    "sub_service_descriptions": [
+                        "Real-time financial reporting and updates for full visibility of accounts."
+                    ]
+                },
+                {
+                    "sub_service_name": "Data Security and Integration",
+                    "sub_service_descriptions": [
+                        "Advanced security protocols and data encryption to ensure data safety.",
+                        "Seamless data transfer and integration with existing accounting systems."
+                    ]
+                },
+                {
+                    "sub_service_name": "Remote Support",
+                    "sub_service_descriptions": [
+                        "Accessible remote support for ongoing questions and account inquiries."
+                    ]
+                }
+            ],
+            "image_url": "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
             "name": "Taxation",
             "class_name": "taxation",
             "description": "Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.",

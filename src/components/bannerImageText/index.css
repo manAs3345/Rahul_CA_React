@@ -29,3 +29,22 @@
     flex-direction: column;
     justify-content: center;
 }
+@media screen and (max-width:500px) {
+    #banner-image-container{
+        flex-direction: column;
+    }
+    #banner-Image{
+        width:95%;
+    }
+    #banner-text-container{
+        text-align: center;
+        align-items: center;
+    }
+    #banner-text-container > h2, #banner-text-container > div{
+        margin: 5px 0px 5px 0px;
+    }
+    #banner-Btn{
+        width:80%;
+        margin: 5px 0px 0px 0px;
+    }
+}

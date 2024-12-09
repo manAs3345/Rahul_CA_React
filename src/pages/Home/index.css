@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 #advantage-container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+
 }
 #sub-heading{
     color:#083d5f;
@@ -11,6 +15,7 @@
     text-underline-offset: 15px;
     margin-bottom: 20px;
     margin-top: 10px;
+    width:fit-content;
 }
 #popular-services-container{
     display: grid;

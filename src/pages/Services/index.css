@@ -21,3 +21,32 @@
     background-image: url('../../images/uae.png');
     background-size: 16px; /* Adjust the size of the flag image */
 }
+
+#information{
+    background-color: red;
+    opacity: 50%;
+    color:white;
+    padding: 10px;
+    
+}
+#hidden{
+    display: none;
+}
+.infoAnimate{
+    animation: swipein 1s ease-in-out;
+}
+@keyframes swipein{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 50%;
+    }
+}
+@media screen and (max-width:500px){
+    #services-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}

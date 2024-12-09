@@ -3,3 +3,21 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+/* button{
+    padding:5px;
+    margin:10px;
+    color:darkred;
+    background-color: darksalmon;
+    border:2px solid darkred;
+    animation: slidein 1s ease-out;
+}
+@keyframes slidein {
+    from{
+        background-color: red;
+        transform: translateX(-100%);
+    }
+    to{
+        background-color: green;
+        transform: translateX(0);
+    }
+} */

@@ -10,7 +10,8 @@ export function Contact(){
     return(
         <>
             <Topnavbar/>
-            <Banner bannerBackgroundImage={bannerImage} bannerTitle="Contact Us"/>
+            <Banner bannerBackgroundImage={bannerImage} bannerTitle="Just a contact away"/>
+            <div id="contact-section-container">
             <div id='contact-section'>
                 <form id="contact-form">
                     <h1>Reach out to us</h1>
@@ -31,15 +32,24 @@ export function Contact(){
                 <div id="contact-details">
                     <div id="contact-detail">
                         <h2>Call Us:</h2>
-                        <p>7972934299 or 9637065582</p>
+                        <p>+91 7972934299 or +91 9637065582</p>
                     </div>
                     <div id="contact-detail">
                         <h2>Email Us At:</h2>
                         <p>somani01.rs@outlook.com</p>
                     </div>
+                    <div id="contact-detail">
+                        <h2>Find Us At:</h2>
+                        <p>Row House-13, Vishwa Residency, Sector – 1, Indrayaninagar, Bhosari, Pune 411039</p>
+                    </div>
                 </div>
             </div>
             <img src={contactDetails} id="contact-details-img"/>
+            </div>
+            <div class="office-location-container">
+                <h1>Find us here</h1>
+                <div id='google-maps-container'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.7005566355765!2d73.8424305749658!3d18.632533582482885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c7e9b6b76d2d%3A0x252c81a8815708f3!2sVishwa%20Recidency!5e0!3m2!1sen!2ssg!4v1719907201872!5m2!1sen!2ssg" width="1000" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Office Address"></iframe></div>
+            </div>
             <Footer/>
         </>
     );

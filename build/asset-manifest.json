@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b84d97ff.css",
+    "main.js": "/static/js/main.9defc24a.js",
+    "static/js/453.652580ae.chunk.js": "/static/js/453.652580ae.chunk.js",
+    "static/media/services_bg.jpg": "/static/media/services_bg.fd10e629a230a9341b4c.jpg",
+    "static/media/founder.jpg": "/static/media/founder.544635aeb97ce261176d.jpg",
+    "static/media/contact_section.jpg": "/static/media/contact_section.c5c820ba235c26065337.jpg",
+    "static/media/service_details.jpg": "/static/media/service_details.ab217c1e17e3f290d96d.jpg",
+    "static/media/homepage_cta.png": "/static/media/homepage_cta.df9d32333dcf25290282.png",
+    "static/media/popularService_Accounting.jpg": "/static/media/popularService_Accounting.627b08206e1e172baf8a.jpg",
+    "static/media/popularService_BusinessAdvisory.jpg": "/static/media/popularService_BusinessAdvisory.e5f3298161d27da9b4a4.jpg",
+    "static/media/popularService_audit.jpg": "/static/media/popularService_audit.a7fc8c5a2e22019cc19f.jpg",
+    "static/media/office_people.jpg": "/static/media/office_people.0da3c4e5ad435d35bfff.jpg",
+    "static/media/contact-section-bg.jpg": "/static/media/contact-section-bg.733baa8cd5b018467213.jpg",
+    "static/media/about_us_banner.jpg": "/static/media/about_us_banner.9435bb9eea868b24ef0f.jpg",
+    "static/media/people_guidance.jpg": "/static/media/people_guidance.b6fe8db90666b947fb6b.jpg",
+    "static/media/ca_logo.png": "/static/media/ca_logo.2af930065498aa4243cc.png",
+    "static/media/india.png": "/static/media/india.f71534a82a293275a202.png",
+    "static/media/customer-satisfaction.png": "/static/media/customer-satisfaction.49b8135d39cea0ce1029.png",
+    "static/media/audit.png": "/static/media/audit.272c9b4c225867735820.png",
+    "static/media/rating.png": "/static/media/rating.0a54c1b626fb5f73bafb.png",
+    "static/media/idea.png": "/static/media/idea.3da07491b328ce0a9379.png",
+    "static/media/taxes.png": "/static/media/taxes.86e33f1e8fc81575970a.png",
+    "static/media/customer-service.png": "/static/media/customer-service.a585a0163c38c5081e51.png",
+    "static/media/accounting.png": "/static/media/accounting.9b9e11624095287367f2.png",
+    "static/media/ba.png": "/static/media/ba.ece88aec8b75f9dc52ea.png",
+    "static/media/uae.png": "/static/media/uae.ecd60881964efb20c3be.png",
+    "static/media/graduation.png": "/static/media/graduation.9e87da1ddbdad632d4d8.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.b84d97ff.css.map": "/static/css/main.b84d97ff.css.map",
+    "main.9defc24a.js.map": "/static/js/main.9defc24a.js.map",
+    "453.652580ae.chunk.js.map": "/static/js/453.652580ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b84d97ff.css",
+    "static/js/main.9defc24a.js"
+  ]
+}

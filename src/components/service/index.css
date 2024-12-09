@@ -7,6 +7,7 @@
     padding:50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
+    /* animation: appear 1s ease-in-out; */
 }
 #service-icon{
     width:10%;
@@ -19,4 +20,17 @@
     background-color: transparent;
     font-weight: bold;
     margin-top: 10px;
+}
+@keyframes appear {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 50%;
+    }
+}
+@media screen and (max-width:500px) {
+    #service-icon{
+        width:20%;
+    }
 }

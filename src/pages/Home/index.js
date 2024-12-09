@@ -15,9 +15,13 @@ import popularServiceBA from '../../images/popularService_BusinessAdvisory.jpg';
 import popularServiceAccounting from '../../images/popularService_Accounting.jpg';
 import contactBannerImg from '../../images/contact_section.jpg';
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
+
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
 import { Footer } from "../../components/footer";
 import { BannerImageText } from "../../components/bannerImageText";
 
@@ -47,36 +51,71 @@ export function Home(){
     
     const bannerSettings = "Have a question or need help? Reach out to us. Our friendly team is ready to assist you with any inquiries or provide more details about our services. Don't hesitate to get in touch. We're here to support you.";
     
-    const settings = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 10000,
-        autoplaySpeed: 10000,
-        cssEase: "linear",
-        pauseOnHover: true,
-        responsive:[
-            {
-                breakpoint:500,
-                settings:{
-                    slidesToShow:1,
-                    slidesToScroll:1,
-                    infinite:true,
+    // const settings = {
+    //     dots: false,
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     speed: 10000,
+    //     autoplaySpeed: 10000,
+    //     cssEase: "linear",
+    //     pauseOnHover: true,
+    //     responsive:[
+    //         {
+    //             breakpoint:500,
+    //             settings:{
+    //                 slidesToShow:1,
+    //                 slidesToScroll:1,
+    //                 infinite:true,
 
-                }
-            }
-        ]
+    //             }
+    //         }
+    //     ]
+    //   };
+
+    const responsive = {
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 1,
+          slidesToSlide: 1 // optional, default to 1.
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 1,
+          slidesToSlide: 1 // optional, default to 1.
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 1,
+          slidesToSlide: 1 // optional, default to 1.
+        }
       };
     
     return(
         <>
             <Topnavbar/>
-            <Slider {...settings}>
+            {/* <Slider {...settings}>
                 <HomePageBanner homeBannerTitle="Welcome to R V Somani & Co. , your trusted partner in financial excellence" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {HomePageBannerImage}/>
                 <HomePageBanner homeBannerTitle="We aim to go beyond the horizon, with services not only in India but also in Dubai" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {OfficePeopleImage}/>
-            </Slider>
+            </Slider> */}
+
+            <Carousel
+            swipeable={true}
+            draggable={false}
+            showDots={false}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={5000}
+            keyBoardControl={true}
+            transitionDuration={500}
+            arrows={false}
+            pauseOnHover={true}
+            responsive={responsive}
+            >
+                <HomePageBanner homeBannerTitle="Welcome to R V Somani & Co. , your trusted partner in financial excellence" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {HomePageBannerImage}/>
+                <HomePageBanner homeBannerTitle="We aim to go beyond the horizon, with services not only in India but also in Dubai" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {OfficePeopleImage}/>
+            </Carousel>
             
             <div>
                 <h1 id="sub-heading">Why Choose Us?</h1>
