@@ -7,13 +7,31 @@ import { Footer } from '../../components/footer';
 import contactDetails from '../../images/contact-section-bg.jpg';
 
 export function Contact(){
+    function handleSubmit(e){
+        e.preventDefault();
+        const fromMail = e.target[1].value;
+        const name = e.target[0].value;
+        console.log(fromMail);
+        const subject = 'Contact Enquiry'
+        const message = e.target[2].value;
+        fetch('http://localhost:5000/email/sendEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ fromMail, subject, message, name })
+        })
+        .then(response => response.json())
+        .then(data => console.log("Email sent successfully."))
+        .catch(error => console.error('Error:', error));
+    }
     return(
         <>
             <Topnavbar/>
             <Banner bannerBackgroundImage={bannerImage} bannerTitle="Just a contact away"/>
             <div id="contact-section-container">
             <div id='contact-section'>
-                <form id="contact-form">
+                <form id="contact-form" onSubmit={handleSubmit}>
                     <h1>Reach out to us</h1>
                     <div id="contact-form-input">
                         {/* <label>Name:</label> <br/> */}
