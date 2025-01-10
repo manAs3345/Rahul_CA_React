@@ -50,6 +50,7 @@ export function ServiceDetails(){
                             sub_service.sub_service_descriptions.forEach((description)=>{
                                 const newDescription = document.createElement("li");
                                 newDescription.textContent = description;
+                                newDescription.classList.add("service-margin");
                                 subServiceDescContainer.appendChild(newDescription);
                             });
     
@@ -81,7 +82,9 @@ export function ServiceDetails(){
                             sub_service.sub_service_descriptions.forEach((description)=>{
                                 const newDescription = document.createElement("li");
                                 newDescription.textContent = description;
+                                newDescription.classList.add("service-margin");
                                 subServiceDescContainer.appendChild(newDescription);
+                                console.log("new service:"+ newDescription);
                             });
     
                         })

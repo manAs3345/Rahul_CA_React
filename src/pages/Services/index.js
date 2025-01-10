@@ -61,7 +61,7 @@ export function Services(){
             <label>Pick your country:</label>
             <select onChange={(event)=>{setCurrentCountry(event.target.value); console.log(currentCountry);}} id="sel">
                 {currentCountry == 'india'?<option value="india" selected>India</option>:<option value="india">India</option>}
-                {currentCountry == 'dubai'?<option value="dubai" selected>Middle East</option>:<option value="dubai">Middle East</option>}
+                {currentCountry == 'dubai'?<option value="dubai" selected>UAE</option>:<option value="dubai">UAE</option>}
             </select>
         </form>
 

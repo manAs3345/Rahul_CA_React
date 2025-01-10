@@ -9,3 +9,15 @@
     display: flex;
     padding: 10px;
 }
+ul{
+    text-align: left; /* Aligns the text to the left */
+    text-justify: auto; /* Applies justification if supported */
+    list-style-type: disc;
+}
+.service-margin{
+    margin-left: 1rem;
+}
+  
+li{
+    text-align: justify; /* Justifies the text in the list items */
+}
