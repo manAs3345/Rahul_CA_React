@@ -14,7 +14,7 @@ export function Contact(){
         console.log(fromMail);
         const subject = 'Contact Enquiry'
         const message = e.target[2].value;
-        fetch('http://localhost:5000/email/sendEmail', {
+        fetch('https://carahulbackend.onrender.com/email/sendEmail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
