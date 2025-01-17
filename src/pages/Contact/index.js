@@ -22,7 +22,7 @@ export function Contact(){
             body: JSON.stringify({ fromMail, subject, message, name })
         })
         .then(response => response.json())
-        .then(data => console.log("Email sent successfully."))
+        .then(data => alert("Email sent successfully."))
         .catch(error => console.error('Error:', error));
     }
     return(
