@@ -10,7 +10,7 @@ import { Contact } from './pages/Contact';
 export const PagesContext = createContext();
 export const CountryContext = createContext();
 
-
+//added note
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   const [currentCountry, setCurrentCountry] = useState('india');
