@@ -50,3 +50,8 @@
 #home-banner-container{
     position: relative;
 }
+@media screen and (max-width:500px){
+    #cta-black-overlay > h1{
+        font-size: 2rem;
+    }
+}

@@ -38,4 +38,14 @@
     #members-container{
         flex-direction: column-reverse;
     }
+    #qualification-container{
+        flex-direction: column;
+    }
+    #qualification{
+        font-size: 1rem;
+        
+    }
+    #qualification>img{
+        width:2rem
+    }
 }

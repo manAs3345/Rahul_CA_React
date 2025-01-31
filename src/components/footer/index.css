@@ -34,3 +34,12 @@ footer{
     color:orangered;
     transition-delay: 0.25s;
 }
+@media screen and (max-width:500px) {
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #footer-section-1, #footer-section-2,#footer-section-3{
+        margin-top:10px;
+    }
+}   

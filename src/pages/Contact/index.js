@@ -54,7 +54,7 @@ export function Contact(){
                     </div>
                     <div id="contact-detail">
                         <h2>Email Us At:</h2>
-                        <p>support@casomani.com</p>
+                        <p>somani01.rs@outlook.com</p>
                     </div>
                     <div id="contact-detail">
                         <h2>Find Us At:</h2>
