@@ -18,12 +18,10 @@
     color:white;
     font-weight: bold;
     display: flex;
-    flex-direction: column;
-}
-#banner_overlay > h1{
-    font-size:40px;
+    flex-direction: row;
+    align-items: center;
 }
 #banner_text{
-    margin-top: 100px;
     margin-left: 50px;
+    margin-bottom: 10px;
 }

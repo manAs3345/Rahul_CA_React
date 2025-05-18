@@ -6,11 +6,11 @@ import { PagesContext } from '../../App';
 export function PopularService(props){
     const [showBtn, setBtnState] = useState(false);
     const routeHist = useNavigate();
-    const serviceName = props.popularServiceName;
+    let serviceName = props.popularServiceRouteName;
     let {currentPage,setCurrentPage} = useContext(PagesContext);
 
-    function handleClick(){
-        routeHist(`/serviceDetails?service=${serviceName}`);
+    function handleClick(routeName){
+        routeHist(`serviceDetails/india/${routeName}`);
         setCurrentPage('services');
     }
 
@@ -22,7 +22,7 @@ export function PopularService(props){
                     <p>
                         {props.popularServiceDescription}
                     </p>
-                    <button id={showBtn == true ? "km-button-show":"km-button-hide"} onClick={handleClick}>Know More</button>
+                    <button id={showBtn == true ? "km-button-show":"km-button-hide"} onClick={()=>{handleClick(serviceName)}}>Know More</button>
                 </div>
                 
         </div>

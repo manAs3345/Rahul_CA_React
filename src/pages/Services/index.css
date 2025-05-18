@@ -35,6 +35,32 @@
 .infoAnimate{
     animation: swipein 1s ease-in-out;
 }
+.countryFlags{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.tab{
+    display: flex;
+    margin:10px;
+    align-items: center;
+}
+.tab > p{
+    font-size: 2rem
+}
+.countryTabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #175887;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    color:darkgray;
+    font-family: "Merriweather Sans", sans-serif;;
+}
+.activeTab{
+    border-bottom: 5px solid #81b84d;
+    color:white;
+}
 @keyframes swipein{
     0%{
         opacity: 0%;

@@ -1,0 +1,16 @@
+.moreServicesLink{
+    padding:10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color:#175887;
+    color:white;
+    border:0px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.moreServicesLink:hover{
+    background-color: #0f3957;
+    transition: 0.25s;
+}

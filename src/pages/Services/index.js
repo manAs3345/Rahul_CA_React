@@ -57,13 +57,24 @@ export function Services(){
         <>
         <Topnavbar/>
         <Banner bannerBackgroundImage={ServicesBanner} bannerTitle={"Our Services"}/>
-        <form id="country-form">
+        <div className="countryTabs">
+            <div className={currentCountry=="india"?"tab activeTab":"tab"} onClick={()=>{setCurrentCountry('india'); console.log(currentCountry);}}>
+                <img src ={indiaFlagIcon} className="countryFlags"/> 
+                <p>India</p>
+            </div>
+            <div className={currentCountry=="dubai"?"tab activeTab":"tab"} onClick={()=>{setCurrentCountry('dubai'); console.log(currentCountry);}}>
+                <img src ={uaeFlagIcon} className="countryFlags"/> 
+                <p>UAE</p>
+            </div>
+        </div>
+        
+        {/* <form id="country-form">
             <label>Pick your country:</label>
             <select onChange={(event)=>{setCurrentCountry(event.target.value); console.log(currentCountry);}} id="sel">
                 {currentCountry == 'india'?<option value="india" selected>India</option>:<option value="india">India</option>}
                 {currentCountry == 'dubai'?<option value="dubai" selected>UAE</option>:<option value="dubai">UAE</option>}
             </select>
-        </form>
+        </form> */}
 
         {/* <div id={currentCountry == 'dubai'?"information":"hidden"}>
             <p id="information-text">As we are providing outsourcing services from India, we are able to provide accounting and taxation services at lower rates, even up to 300 Dirham per month</p>
@@ -71,18 +82,18 @@ export function Services(){
         {
             currentCountry == 'india'?
             <div id="services-section">
-                <Service serviceImage={TaxIcon} serviceName={s1} serviceDescription={sd1}/>
-                <Service serviceImage={AuditIcon} serviceName={s2} serviceDescription={sd2}/>
-                <Service serviceImage={BusinessIcon} serviceName={s3} serviceDescription={sd3}/>
-                <Service serviceImage={AccountingIcon} serviceName={s4} serviceDescription={sd4}/>
-                <Service serviceImage={gstIcon} serviceName={s5} serviceDescription={sd5}/>
+                <Service serviceImage={TaxIcon} serviceName={s1} serviceDescription={sd1} country="india" serviceRouteName="taxation"/>
+                <Service serviceImage={AuditIcon} serviceName={s2} serviceDescription={sd2} country="india" serviceRouteName="audit"/>
+                <Service serviceImage={BusinessIcon} serviceName={s3} serviceDescription={sd3} country="india" serviceRouteName="ba"/>
+                <Service serviceImage={AccountingIcon} serviceName={s4} serviceDescription={sd4} country="india" serviceRouteName="accounting"/>
+                <Service serviceImage={gstIcon} serviceName={s5} serviceDescription={sd5} country="india" serviceRouteName="gst"/>
             </div> 
             :
             <div id="services-section">
-                <Service serviceImage={TaxIcon} serviceName={s4_d} serviceDescription={sdd4}/>
-                <Service serviceImage={TaxIcon} serviceName={s1_d} serviceDescription={sdd1}/>
-                <Service serviceImage={AuditIcon} serviceName={s2_d} serviceDescription={sdd2}/>
-                <Service serviceImage={BusinessIcon} serviceName={s3_d} serviceDescription={sdd3}/>
+                <Service serviceImage={TaxIcon} serviceName={s4_d} serviceDescription={sdd4} country="uae" serviceRouteName="outsourcing"/>
+                <Service serviceImage={TaxIcon} serviceName={s1_d} serviceDescription={sdd1} country="uae" serviceRouteName="taxation"/>
+                <Service serviceImage={AuditIcon} serviceName={s2_d} serviceDescription={sdd2} country="uae" serviceRouteName="corporate"/>
+                <Service serviceImage={BusinessIcon} serviceName={s3_d} serviceDescription={sdd3} country="uae" serviceRouteName="aa"/>
             </div> 
         }
         

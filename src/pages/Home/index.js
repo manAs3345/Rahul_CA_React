@@ -1,6 +1,9 @@
 import { Topnavbar } from "../../components/navbar";
 import { HomePageBanner } from "../../components/homepageBanner";
 import { AdvantageSection } from "../../components/advantageSection";
+import { PagesContext } from '../../App';
+import { useContext } from "react";
+import { Link } from "react-router-dom";
 import './index.css';
 import RatingIcon from '../../images/rating.png';
 import IdeaIcon from '../../images/idea.png';
@@ -91,6 +94,7 @@ export function Home(){
           slidesToSlide: 1 // optional, default to 1.
         }
       };
+      let {currentPage,setCurrentPage} = useContext(PagesContext);
     
     return(
         <>
@@ -100,22 +104,18 @@ export function Home(){
                 <HomePageBanner homeBannerTitle="We aim to go beyond the horizon, with services not only in India but also in Dubai" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {OfficePeopleImage}/>
             </Slider> */}
 
-            <Carousel
-            swipeable={true}
-            draggable={false}
-            showDots={false}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={5000}
-            keyBoardControl={true}
-            transitionDuration={500}
-            arrows={false}
-            pauseOnHover={true}
-            responsive={responsive}
-            >
-                <HomePageBanner homeBannerTitle="Welcome to R V Somani & Co. , your trusted partner in financial excellence" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {HomePageBannerImage}/>
-                <HomePageBanner homeBannerTitle="We aim to go beyond the horizon, with services not only in India but also in Dubai" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {OfficePeopleImage}/>
-            </Carousel>
+<section id="hero-section">
+                <div className="hero-overlay">
+                    <div className="hero-content">
+                        <h1>Empowering Financial Success Globally</h1>
+                        <p>Delivering trusted Chartered Accountancy services across <strong>India</strong>, <strong>UAE</strong>, <strong>UK</strong> and <strong>the USA</strong>.</p>
+                        <div className="hero-buttons">
+                            <Link to="/services" className="hero-button primary" onClick={()=>{setCurrentPage('services')}}>Explore Services</Link>
+                            <Link to="/contact" className="hero-button secondary" onClick={()=>{setCurrentPage('contact')}}>Contact Us</Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
             <div>
                 <h1 id="sub-heading">Why Choose Us?</h1>
@@ -127,10 +127,10 @@ export function Home(){
                 </div>
                 <h1 id="sub-heading">Popular Services</h1>
                 <div id="popular-services-container">
-                    <PopularService popularServiceImg={OfficePeopleImage} popularServiceName={ps1} popularServiceDescription={psd1}/>
-                    <PopularService popularServiceImg={popularServiceAudit} popularServiceName={ps2} popularServiceDescription={psd2}/>
-                    <PopularService popularServiceImg={popularServiceBA} popularServiceName={ps3} popularServiceDescription={psd3}/>
-                    <PopularService popularServiceImg={popularServiceAccounting} popularServiceName={ps4} popularServiceDescription={psd4}/>
+                    <PopularService popularServiceImg={OfficePeopleImage} popularServiceName={ps1} popularServiceDescription={psd1} popularServiceRouteName="taxation"/>
+                    <PopularService popularServiceImg={popularServiceAudit} popularServiceName={ps2} popularServiceDescription={psd2} popularServiceRouteName="audit"/>
+                    <PopularService popularServiceImg={popularServiceBA} popularServiceName={ps3} popularServiceDescription={psd3} popularServiceRouteName="ba"/>
+                    <PopularService popularServiceImg={popularServiceAccounting} popularServiceName={ps4} popularServiceDescription={psd4} popularServiceRouteName="accounting"/>
                 </div>
                 <h1 id="sub-heading">Want to reach out to us?</h1>
                 <div id="reach-out-container">

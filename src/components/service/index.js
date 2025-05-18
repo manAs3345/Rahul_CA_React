@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 
 export function Service(props){
     const routeHist = useNavigate();
-    function handleTaxationModal(serviceName){
-       routeHist(`/serviceDetails?service=${serviceName}`);
+    function handleTaxationModal(serviceRouteName,country){
+       routeHist(`/serviceDetails/${country}/${serviceRouteName}`);
     }
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -17,7 +17,7 @@ export function Service(props){
             <p>
                 {props.serviceDescription}
             </p>
-            <button id="more-btn" onClick={()=>handleTaxationModal(props.serviceName)}>Know More</button>
+            <button id="more-btn" onClick={()=>handleTaxationModal(props.serviceRouteName,props.country)}>Know More</button>
         </div>
     );
 }

@@ -8,11 +8,9 @@ export function Footer(){
     return(
         <footer>
             <div id="footer-section-1">
-            <Link to="/">
-                            <img src= {CALogo} alt="" id="logo-img"/>
-                        </Link>
+            <Link to="/"><img src= {CALogo} alt="" id="logo-img"/></Link>
                 <p id="footer-section-heading">Key Pages</p>
-                <ul>
+                <ul id="footer-page-links">
                     <Link to='/'><li id="links">Home</li></Link>
                     <Link to='/about'><li id="links">About Us</li></Link>
                     <Link to='/services'><li id="links">Services</li></Link>
