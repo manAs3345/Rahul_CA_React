@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.457228df.css",
-    "main.js": "/static/js/main.5f7f5bb1.js",
+    "main.css": "/static/css/main.2d080380.css",
+    "main.js": "/static/js/main.a94f1d23.js",
     "static/js/453.652580ae.chunk.js": "/static/js/453.652580ae.chunk.js",
     "static/media/services_bg.jpg": "/static/media/services_bg.fd10e629a230a9341b4c.jpg",
     "static/media/founder.jpg": "/static/media/founder.544635aeb97ce261176d.jpg",
@@ -25,18 +25,18 @@
     "static/media/customer-service.png": "/static/media/customer-service.a585a0163c38c5081e51.png",
     "static/media/accounting.png": "/static/media/accounting.9b9e11624095287367f2.png",
     "static/media/ba.png": "/static/media/ba.ece88aec8b75f9dc52ea.png",
-    "static/media/uae.png": "/static/media/uae.ecd60881964efb20c3be.png",
     "static/media/graduation.png": "/static/media/graduation.9e87da1ddbdad632d4d8.png",
+    "static/media/uae.png": "/static/media/uae.db306b0a546a6dd52e2c.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.457228df.css.map": "/static/css/main.457228df.css.map",
-    "main.5f7f5bb1.js.map": "/static/js/main.5f7f5bb1.js.map",
+    "main.2d080380.css.map": "/static/css/main.2d080380.css.map",
+    "main.a94f1d23.js.map": "/static/js/main.a94f1d23.js.map",
     "453.652580ae.chunk.js.map": "/static/js/453.652580ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.457228df.css",
-    "static/js/main.5f7f5bb1.js"
+    "static/css/main.2d080380.css",
+    "static/js/main.a94f1d23.js"
   ]
 }
