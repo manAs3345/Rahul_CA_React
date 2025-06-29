@@ -15,7 +15,10 @@ import { ServiceDetailsUAEOutsourcing } from './pages/ServiceDetails/UAE/outsour
 import { ServiceDetailsUAETaxation } from './pages/ServiceDetails/UAE/taxation';
 import { ServiceDetailsUAECorporate } from './pages/ServiceDetails/UAE/corporate';
 import { ServiceDetailsUAEAA } from './pages/ServiceDetails/UAE/advisory and assurance';
-
+import { ServiceDetailsUKOutsourcing } from './pages/ServiceDetails/UK/outsourcing';
+import { ServiceDetailsUSOutsourcing } from './pages/ServiceDetails/US/outsourcing';
+import { ServiceDetailsAUSOutsourcing } from './pages/ServiceDetails/AUS/outsourcing';
+import { IndividualReturnsUK } from './pages/ServiceDetails/UK/individual returns';
 export const PagesContext = createContext();
 export const CountryContext = createContext();
 
@@ -40,10 +43,16 @@ function App() {
               <Route path='india/ba' element={<ServiceDetailsBA/>}/>
               <Route path='india/accounting' element={<ServiceDetailsAccounting/>}/>
               <Route path='india/gst' element={<ServiceDetailsGST/>}/>
+
               <Route path='uae/outsourcing' element={<ServiceDetailsUAEOutsourcing/>}/>
               <Route path='uae/taxation' element={<ServiceDetailsUAETaxation/>}/>
               <Route path='uae/corporate' element={<ServiceDetailsUAECorporate/>}/>
               <Route path='uae/aa' element={<ServiceDetailsUAEAA/>}/>
+
+              <Route path='uk/outsourcing' element={<ServiceDetailsUKOutsourcing/>}/>
+              <Route path='uk/individualReturns' element={<IndividualReturnsUK/>}/>
+              <Route path='us/outsourcing' element={<ServiceDetailsUSOutsourcing/>}/>
+              <Route path='aus/outsourcing' element={<ServiceDetailsAUSOutsourcing/>}/>
             </Route>
             <Route path='/contact' element={<Contact></Contact>}/>
         </Routes>

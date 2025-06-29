@@ -6,7 +6,7 @@ import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import { KnowMoreLinker } from "../../../../components/more";
 
-export function ServiceDetailsUAEOutsourcing() {
+export function ServiceDetailsUKOutsourcing() {
     return(
         <>
             <Topnavbar/>

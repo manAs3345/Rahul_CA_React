@@ -56,6 +56,7 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
     color:darkgray;
     font-family: "Merriweather Sans", sans-serif;;
+    cursor: pointer;
 }
 .activeTab{
     border-bottom: 5px solid #81b84d;

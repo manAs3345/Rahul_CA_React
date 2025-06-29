@@ -32,12 +32,12 @@ export function ServiceDetailsBA(){
                         <li>We assist with strategic planning, market analysis, and competitive positioning.</li>
                         <li>We develop and execute customized growth strategies to drive business success and competitiveness.</li>
                     </ul>
-                    <b><li>Mergers and Acquisitions</li></b>
+                    {/* <b><li>Mergers and Acquisitions</li></b>
                     <ul>
                         <li>We conduct comprehensive due diligence on potential acquisitions and partnerships.</li>
                         <li>We provide valuation services and financial analysis to support decision-making.</li>
                         <li>We assist with negotiation, deal structuring, and post-merger integration to maximize value and minimize risk.</li>
-                    </ul>
+                    </ul> */}
                     <b><li>Financial Restructuring</li></b>
                     <ul>
                         <li>We evaluate financial performance and viability to identify restructuring opportunities.</li>

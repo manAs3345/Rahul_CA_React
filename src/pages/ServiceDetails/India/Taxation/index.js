@@ -21,16 +21,19 @@ export function ServiceDetailsTaxation(){
                         <li>Provide guidance on various tax-saving investment options available under Indian tax laws, such as tax-saving fixed deposits, Public Provident Fund (PPF), Equity-Linked Savings Schemes (ELSS), National Pension System (NPS), and more.</li>
                         <li>Give advice on structuring your business transactions, mergers, acquisitions, and other financial decisions to optimize your tax outcomes.</li>
                     </ul>
+                    <br/>
                     <b><li>Income Tax Return (ITR) Filing</li></b>
                     <ul>
                         <li>Ensure that your businesses complies with the complex direct tax regime.</li>
                         <li>Ensure that all eligible deductions, exemptions, and credits are claimed to reduce the overall tax liability.</li>
                         <li>Well-versed in the e-filing procedures mandated by the Income Tax Department and help you to navigate the online filing process.</li>
                     </ul>
+                    <br/>
                     <b><li>Goods and Services Tax (GST) Services</li></b>
                     <ul>
                         <li>We assist in GST registration, filing of GST returns, and maintaining GST compliance.</li>
                         <li>We provide guidance on the correct classification of goods and services, calculation of GST liabilities, and the implementation of GST-compliant accounting systems.</li>
+                        <li>we help in HR activities with PF, ESI and PT Registration and filing of returns</li>
                     </ul>
 
                 </ol>

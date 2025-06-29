@@ -6,7 +6,7 @@ import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import { KnowMoreLinker } from "../../../../components/more";
 
-export function ServiceDetailsUAEOutsourcing() {
+export function ServiceDetailsUSOutsourcing() {
     return(
         <>
             <Topnavbar/>
@@ -16,7 +16,7 @@ export function ServiceDetailsUAEOutsourcing() {
                 <h1>What do we provide?</h1>
                 <br/>
                 <h1>Outsourcing Services - Accounting and Taxation</h1>
-                <p>With the introduction of VAT and Corporate Tax in the UAE, many businesses—especially SMEs—are seeking reliable partners for efficient compliance. Outsourcing accounting and tax functions to R V Somani & Co. ensures: </p>
+                <p>With the introduction of VAT and Corporate Tax in the US, many businesses—especially SMEs—are seeking reliable partners for efficient compliance. Outsourcing accounting and tax functions to R V Somani & Co. ensures: </p>
                 <ul>
                   <li>Daily Accounting, with minimum errors and timely completion</li>
                   <li>Detailed MIS analysis with actionable insights for better decision-making</li>
