@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d080380.css",
-    "main.js": "/static/js/main.a94f1d23.js",
+    "main.css": "/static/css/main.b7e5ef18.css",
+    "main.js": "/static/js/main.546adc6e.js",
     "static/js/453.652580ae.chunk.js": "/static/js/453.652580ae.chunk.js",
     "static/media/services_bg.jpg": "/static/media/services_bg.fd10e629a230a9341b4c.jpg",
     "static/media/founder.jpg": "/static/media/founder.544635aeb97ce261176d.jpg",
@@ -18,9 +18,12 @@
     "static/media/ca_logo.png": "/static/media/ca_logo.2af930065498aa4243cc.png",
     "static/media/india.png": "/static/media/india.f71534a82a293275a202.png",
     "static/media/customer-satisfaction.png": "/static/media/customer-satisfaction.49b8135d39cea0ce1029.png",
+    "static/media/uk.png": "/static/media/uk.9a82d84a95ece39ec610.png",
     "static/media/audit.png": "/static/media/audit.272c9b4c225867735820.png",
     "static/media/rating.png": "/static/media/rating.0a54c1b626fb5f73bafb.png",
     "static/media/idea.png": "/static/media/idea.3da07491b328ce0a9379.png",
+    "static/media/aus.png": "/static/media/aus.a92c80f6c2fa0b6b6a85.png",
+    "static/media/us.png": "/static/media/us.60c7d34f75799e443d80.png",
     "static/media/taxes.png": "/static/media/taxes.86e33f1e8fc81575970a.png",
     "static/media/customer-service.png": "/static/media/customer-service.a585a0163c38c5081e51.png",
     "static/media/accounting.png": "/static/media/accounting.9b9e11624095287367f2.png",
@@ -31,12 +34,12 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.2d080380.css.map": "/static/css/main.2d080380.css.map",
-    "main.a94f1d23.js.map": "/static/js/main.a94f1d23.js.map",
+    "main.b7e5ef18.css.map": "/static/css/main.b7e5ef18.css.map",
+    "main.546adc6e.js.map": "/static/js/main.546adc6e.js.map",
     "453.652580ae.chunk.js.map": "/static/js/453.652580ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d080380.css",
-    "static/js/main.a94f1d23.js"
+    "static/css/main.b7e5ef18.css",
+    "static/js/main.546adc6e.js"
   ]
 }
