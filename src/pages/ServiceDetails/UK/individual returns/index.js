@@ -4,6 +4,7 @@ import { BannerSubText } from '../../../../components/bannerSubText';
 import serviceBannerImage from '../../../../images/service_details.jpg';
 import { Topnavbar } from '../../../../components/navbar';
 import { Footer } from '../../../../components/footer';
+import { KnowMoreLinker } from '../../../../components/more';
 
 export function IndividualReturnsUK(){
     return(
@@ -49,13 +50,14 @@ export function IndividualReturnsUK(){
             <div className = "ir-pt">
                 <p><b>Why choose us?</b></p>
                 <ul>
-                    <li>Indian pricing with UK compliance</li>
+                    <li className="reason">Indian pricing with UK compliance</li>
                     <li>Knowledge of both UK and Indian taxation systems</li>
                     <li>Assistance with foreign income and DTAA planning</li>
                     <li>End-to-end online process</li>
                     <li>Personalized support from qualified Chartered Accountants</li>
                 </ul>
             </div>
+            <KnowMoreLinker navRoute="/services" linkText="explore more services"/>
         </div>
         <Footer/>
         </>

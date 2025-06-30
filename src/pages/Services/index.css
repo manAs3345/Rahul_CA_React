@@ -57,6 +57,7 @@
     color:darkgray;
     font-family: "Merriweather Sans", sans-serif;;
     cursor: pointer;
+    
 }
 .activeTab{
     border-bottom: 5px solid #81b84d;
@@ -75,5 +76,10 @@
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
+    }
+    .countryTabs{
+        align-items: start;
+        justify-content: start;
+        overflow-x: scroll;
     }
 }
