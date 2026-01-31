@@ -7,6 +7,7 @@ import { useContext, useEffect } from 'react';
 import { PagesContext } from '../../App';
 
 export function Topnavbar(){
+    let navigate = useNavigate();
     if(window.innerWidth<500){
         console.log("less than 500");
     }
