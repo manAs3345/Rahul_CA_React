@@ -5,25 +5,45 @@ import { Topnavbar } from '../../components/navbar';
 import InputGroupText from 'react-bootstrap/esm/InputGroupText';
 import { Footer } from '../../components/footer';
 import contactDetails from '../../images/contact-section-bg.jpg';
+import { useState } from 'react';
 
 export function Contact(){
+    const [formData,setFormData] = useState({
+        fromMail:'',
+        subject:'Contact Enquiry',
+        name:'',
+        message:''
+    });
+    function handleChange(e){
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
     function handleSubmit(e){
         e.preventDefault();
-        const fromMail = e.target[1].value;
-        const name = e.target[0].value;
-        console.log(fromMail);
-        const subject = 'Contact Enquiry'
-        const message = e.target[2].value;
-        fetch('https://carahulbackend.onrender.com/email/sendEmail', {
+        console.log(formData);
+        // const fromMail = e.target[1].value;
+        // const name = e.target[0].value;
+        // console.log(fromMail);
+        // const subject = 'Contact Enquiry'
+        // const message = e.target[2].value;
+        const devLink="http://localhost:5000/email/sendEmail";
+        const prodLink="https://carahulbackend.onrender.com/email/sendEmail";
+        fetch(prodLink, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ fromMail, subject, message, name })
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData)
         })
-        .then(response => response.json())
-        .then(data => alert("Email sent successfully."))
-        .catch(error => console.error('Error:', error));
+        .then(async response => {
+            const text = await response.text();
+            try {
+                const data = JSON.parse(text);
+                if (!response.ok) throw new Error(data.message);
+                console.log("Success:", data);
+            } catch {
+                throw new Error(text);
+            }
+        })
+        .catch(error => console.error("Error:", error.message));
     }
     return(
         <>
@@ -35,15 +55,15 @@ export function Contact(){
                     <h1>Reach out to us</h1>
                     <div id="contact-form-input">
                         {/* <label>Name:</label> <br/> */}
-                        <input placeholder='Name' type='text'></input>
+                        <input placeholder='Name' type='text' name="name" onChange={handleChange}></input>
                     </div>
                     <div id="contact-form-input">
                         {/* <label>Email Address:</label> <br/> */}
-                        <input placeholder='Email' type='email'></input>
+                        <input placeholder='Email' type='email' name="fromMail" onChange={handleChange}></input>
                     </div>
                     <div id="contact-form-textarea">
                         {/* <label>Message:</label> <br/> */}
-                        <textarea placeholder='Message'></textarea>
+                        <textarea placeholder='Message' name="message" onChange={handleChange}></textarea>
                     </div>
                     <button>Contact</button>
                 </form>

@@ -16,7 +16,7 @@ export function ServiceDetailsUKOutsourcing() {
                 <h1>What do we provide?</h1>
                 <br/>
                 <h1>Outsourcing Services - Accounting and Taxation</h1>
-                <p>With the introduction of VAT and Corporate Tax in the UAE, many businesses—especially SMEs—are seeking reliable partners for efficient compliance. Outsourcing accounting and tax functions to R V Somani & Co. ensures: </p>
+                <p>With the introduction of VAT and Corporate Tax in the UK, many businesses—especially SMEs—are seeking reliable partners for efficient compliance. Outsourcing accounting and tax functions to R V Somani & Co. ensures: </p>
                 <ul>
                   <li>Daily Accounting, with minimum errors and timely completion</li>
                   <li>Detailed MIS analysis with actionable insights for better decision-making</li>
@@ -40,7 +40,7 @@ export function ServiceDetailsUKOutsourcing() {
                 <div className="keyBenefits">
                   <div className = "benefitItem">
                     <h3>Reduction in Hiring Burdens</h3>
-                    <p>Hiring in the UAE entails visa formalities, relocation, accommodation, and regulatory compliances. By outsourcing, clients avoid these costs and complexities.</p>
+                    <p>Hiring in the UK entails visa formalities, relocation, accommodation, and regulatory compliances. By outsourcing, clients avoid these costs and complexities.</p>
                   </div>
                   <div className = "benefitItem">
                     <h3>Business Continuity and Scalability</h3>
@@ -77,7 +77,7 @@ export function ServiceDetailsUKOutsourcing() {
               </section>
               <section className="OutsourcingDetails4 outsourcingSection">
                 <h1>Our vision for you</h1>
-                <p>We aim to be your trusted partner in navigating the UAE's evolving business environment, offering:</p>
+                <p>We aim to be your trusted partner in navigating the UK's evolving business environment, offering:</p>
                 <ul>
                   <li>Reliable Financial Management</li>
                   <li>Seamless Compliance</li>

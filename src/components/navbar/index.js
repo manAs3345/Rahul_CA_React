@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import ca_logo from '../../images/ca_logo.png';
 import { HamburgerIcon } from '../hamburgerIcon';
 import './index.css';
@@ -13,7 +13,6 @@ export function Topnavbar(){
     let {currentPage,setCurrentPage} = useContext(PagesContext);
     useEffect(()=>{
         window.addEventListener("resize",handleResize);
-
         // var elems = document.querySelectorAll("#navbar-tabs > a");
         // elems.forEach((element)=>{
         //     element.setAttribute("id","default");
@@ -24,7 +23,7 @@ export function Topnavbar(){
         let navTabs = document.getElementById("navbar-tabs");
         let navBarContainer = document.getElementById("navbar-container");
         navBarContainer.style.display = "flex";
-        hamburgerIcon.addEventListener("click",()=>{
+        hamburgerIconCB.addEventListener("change",()=>{
         if(hamburgerIconCB.checked == true){
             console.log("is checked");
             navTabs.style.display = "block";
@@ -97,7 +96,7 @@ export function Topnavbar(){
     }
     return(
         <div id='navbar-container'>
-            <img src={ca_logo} id="ca-logo"/>
+            <img src={ca_logo} id="ca-logo" onClick={()=>{setCurrentPage("home");navigate("/");}}/>
             <div id='hamburger-icon-container'>
                 <label for="hamburger-icon" id="hamburger">
                     <HamburgerIcon/>

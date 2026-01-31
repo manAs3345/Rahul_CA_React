@@ -40,7 +40,7 @@ export function ServiceDetailsUSOutsourcing() {
                 <div className="keyBenefits">
                   <div className = "benefitItem">
                     <h3>Reduction in Hiring Burdens</h3>
-                    <p>Hiring in the UAE entails visa formalities, relocation, accommodation, and regulatory compliances. By outsourcing, clients avoid these costs and complexities.</p>
+                    <p>Hiring in the US entails visa formalities, relocation, accommodation, and regulatory compliances. By outsourcing, clients avoid these costs and complexities.</p>
                   </div>
                   <div className = "benefitItem">
                     <h3>Business Continuity and Scalability</h3>
@@ -77,7 +77,7 @@ export function ServiceDetailsUSOutsourcing() {
               </section>
               <section className="OutsourcingDetails4 outsourcingSection">
                 <h1>Our vision for you</h1>
-                <p>We aim to be your trusted partner in navigating the UAE's evolving business environment, offering:</p>
+                <p>We aim to be your trusted partner in navigating the US's evolving business environment, offering:</p>
                 <ul>
                   <li>Reliable Financial Management</li>
                   <li>Seamless Compliance</li>

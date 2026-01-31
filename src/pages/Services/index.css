@@ -44,6 +44,9 @@
     display: flex;
     margin:10px;
     align-items: center;
+    border-bottom: white 5px solid;
+    border-radius: 3px;
+    transition: 0.2s;
 }
 .tab > p{
     font-size: 2rem
@@ -54,7 +57,7 @@
     align-items: center;
     background-color: #175887;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-    color:darkgray;
+    color:darkgrey;
     font-family: "Merriweather Sans", sans-serif;;
     cursor: pointer;
     
@@ -62,6 +65,7 @@
 .activeTab{
     border-bottom: 5px solid #81b84d;
     color:white;
+    animation: swipeIn 0.5s ease-in-out;
 }
 @keyframes swipein{
     0%{
