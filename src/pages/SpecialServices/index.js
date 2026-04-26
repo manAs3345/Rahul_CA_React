@@ -81,7 +81,7 @@ export function SpecialServices(){
                         <li>Periodic review of records</li>
                     </ul>
                     <br/>
-                    <p>* Designed for businesses requiring detailed support and handling of larger or complex operations.</p>
+                    <p>* Ideal for growing businesses with higher volume and regular operations.</p>
                 </div>
                 <div className="plan3 plan">
                     <h1 className="blue">Custom Plan</h1>
