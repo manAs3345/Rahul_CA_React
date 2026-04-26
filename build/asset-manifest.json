@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e130517b.css",
-    "main.js": "/static/js/main.70eeedc1.js",
+    "main.css": "/static/css/main.16ca90d6.css",
+    "main.js": "/static/js/main.e144c960.js",
     "static/js/453.652580ae.chunk.js": "/static/js/453.652580ae.chunk.js",
     "static/media/services_bg.jpg": "/static/media/services_bg.fd10e629a230a9341b4c.jpg",
     "static/media/founder.jpg": "/static/media/founder.544635aeb97ce261176d.jpg",
@@ -16,6 +16,7 @@
     "static/media/about_us_banner.jpg": "/static/media/about_us_banner.9435bb9eea868b24ef0f.jpg",
     "static/media/people_guidance.jpg": "/static/media/people_guidance.b6fe8db90666b947fb6b.jpg",
     "static/media/ca_logo.png": "/static/media/ca_logo.2af930065498aa4243cc.png",
+    "static/media/target.png": "/static/media/target.d92ee6cccc75dbf0ad6e.png",
     "static/media/india.png": "/static/media/india.f71534a82a293275a202.png",
     "static/media/customer-satisfaction.png": "/static/media/customer-satisfaction.49b8135d39cea0ce1029.png",
     "static/media/uk.png": "/static/media/uk.9a82d84a95ece39ec610.png",
@@ -27,19 +28,22 @@
     "static/media/taxes.png": "/static/media/taxes.86e33f1e8fc81575970a.png",
     "static/media/customer-service.png": "/static/media/customer-service.a585a0163c38c5081e51.png",
     "static/media/accounting.png": "/static/media/accounting.9b9e11624095287367f2.png",
+    "static/media/checked.png": "/static/media/checked.51db8b64bf5746f9a245.png",
     "static/media/ba.png": "/static/media/ba.ece88aec8b75f9dc52ea.png",
+    "static/media/warning.png": "/static/media/warning.2a25574ab332e41cf691.png",
+    "static/media/setting.png": "/static/media/setting.a894d35a0c60a8fb47e7.png",
     "static/media/graduation.png": "/static/media/graduation.9e87da1ddbdad632d4d8.png",
     "static/media/uae.png": "/static/media/uae.db306b0a546a6dd52e2c.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.e130517b.css.map": "/static/css/main.e130517b.css.map",
-    "main.70eeedc1.js.map": "/static/js/main.70eeedc1.js.map",
+    "main.16ca90d6.css.map": "/static/css/main.16ca90d6.css.map",
+    "main.e144c960.js.map": "/static/js/main.e144c960.js.map",
     "453.652580ae.chunk.js.map": "/static/js/453.652580ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e130517b.css",
-    "static/js/main.70eeedc1.js"
+    "static/css/main.16ca90d6.css",
+    "static/js/main.e144c960.js"
   ]
 }

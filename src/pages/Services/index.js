@@ -33,13 +33,13 @@ const s2_d = "Corporate";
 const s3_d = "Advisory and Assurance";
 const s4_d = "Outsourcing"
 
-const s1_uk = "Oursourcing";
+const s1_uk = "Outsourcing";
 const s2_uk = "Individual returns";
 
-const s1_us = "Oursourcing";
+const s1_us = "Outsourcing";
 const s2_us = "Individual returns";
 
-const s1_aus = "Oursourcing";
+const s1_aus = "Outsourcing";
 const s2_aus = "Individual returns";
 //Service Descriptions
 const sd1 = "Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.";

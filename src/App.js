@@ -19,6 +19,7 @@ import { ServiceDetailsUKOutsourcing } from './pages/ServiceDetails/UK/outsourci
 import { ServiceDetailsUSOutsourcing } from './pages/ServiceDetails/US/outsourcing';
 import { ServiceDetailsAUSOutsourcing } from './pages/ServiceDetails/AUS/outsourcing';
 import { IndividualReturnsUK } from './pages/ServiceDetails/UK/individual returns';
+import { SpecialServices } from './pages/SpecialServices';
 export const PagesContext = createContext();
 export const CountryContext = createContext();
 
@@ -54,6 +55,7 @@ function App() {
               <Route path='us/outsourcing' element={<ServiceDetailsUSOutsourcing/>}/>
               <Route path='aus/outsourcing' element={<ServiceDetailsAUSOutsourcing/>}/>
             </Route>
+            <Route path='/special-services' element={<SpecialServices/>}/>
             <Route path='/contact' element={<Contact></Contact>}/>
         </Routes>
       </PagesContext.Provider>

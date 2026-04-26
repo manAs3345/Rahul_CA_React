@@ -112,6 +112,7 @@ export function Home(){
                         <div className="hero-buttons">
                             <Link to="/services" className="hero-button primary" onClick={()=>{setCurrentPage('services')}}>Explore Services</Link>
                             <Link to="/contact" className="hero-button secondary" onClick={()=>{setCurrentPage('contact')}}>Contact Us</Link>
+                            <Link to="/special-services" className="secondary-button" onClick={()=>{setCurrentPage('special-services')}}> Accounting and filing services for Rs. 1999 only</Link>
                         </div>
                     </div>
                 </div>

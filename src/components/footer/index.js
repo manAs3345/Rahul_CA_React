@@ -13,8 +13,10 @@ export function Footer(){
                 <ul id="footer-page-links">
                     <Link to='/'><li id="links">Home</li></Link>
                     <Link to='/about'><li id="links">About Us</li></Link>
+                    <Link to='/special-services'><li id="links">Special Services</li></Link>
                     <Link to='/services'><li id="links">Services</li></Link>
                     <Link to='/contact'><li id="links">Contact Us</li></Link>
+                    
                 </ul>
             </div>
             <div id="footer-section-2">

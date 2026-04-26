@@ -39,6 +39,9 @@ export function Contact(){
                 const data = JSON.parse(text);
                 if (!response.ok) throw new Error(data.message);
                 console.log("Success:", data);
+                alert("We have received your message. We will get back to you shortly.");
+                window.location.reload();
+                
             } catch {
                 throw new Error(text);
             }

@@ -24,7 +24,9 @@
 }
 #hero-section {
     background: url('../../images/office_people.jpg') center/cover no-repeat;
-    height: 90vh;
+    height: 50vh;
+    max-width: 100%;
+    object-fit: cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -65,6 +67,20 @@
 
 .hero-button {
     background-color: #083d5f; /* Deep blue - matches your theme */
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.secondary-button {
+    background-color: #3d5725; /* Deep blue - matches your theme */
     color: white;
     padding: 12px 24px;
     font-size: 1rem;
