@@ -3,6 +3,7 @@ import { Topnavbar } from "../../components/navbar";
 import { Service } from "../../components/service";
 import {Footer} from '../../components/footer';
 import ServicesBanner from '../../images/services_bg.jpg';
+import { Helmet } from "react-helmet";
 
 import TaxIcon from '../../images/audit.png';
 import AuditIcon from '../../images/customer-service.png';
@@ -19,6 +20,7 @@ import ausFlagIcon from '../../images/aus.png';
 import'./index.css';
 import { useContext, useEffect, useState } from "react";
 import { CountryContext, PagesContext } from "../../App";
+
 
 
 //Service Names
@@ -63,6 +65,30 @@ const sdus2 = "Reliable and comprehensive services designed to simplify and mana
 const sdaus1 = "Comprehensive outsourced solutions for accounting, taxation, and business process management tailored to your business needs.";
 const sdaus2 = "Reliable and comprehensive services designed to simplify and manage all aspects of your individual income tax returns with ease and accuracy";
 
+//SEO DATA
+const seoData = {
+    india: {
+        title: "CA Services in India | Tax, Audit, GST & Accounting",
+        desc: "Professional Chartered Accountant services in India including taxation, GST, audit, accounting and business advisory."
+    },
+    dubai: {
+        title: "Accounting & Tax Services in UAE | Outsourcing Experts",
+        desc: "Affordable accounting, taxation and outsourcing services for UAE businesses provided by experienced Chartered Accountants."
+    },
+    uk: {
+        title: "Accounting Services in UK | Outsourcing & Tax Returns",
+        desc: "Reliable UK accounting services including outsourcing and individual tax return filing."
+    },
+    us: {
+        title: "US Accounting Services | Outsourcing & Tax Filing",
+        desc: "Professional accounting outsourcing and individual tax return services for US clients."
+    },
+    aus: {
+        title: "Accounting Services in Australia | Tax & Outsourcing",
+        desc: "Expert accounting and tax services for Australian businesses and individuals."
+    }
+};
+
 export function Services(){
     const {currentCountry, setCurrentCountry} = useContext(CountryContext);
     const {currentPage, setCurrentPage} = useContext(PagesContext);
@@ -74,6 +100,12 @@ export function Services(){
     // },[currentCountry])
     return(
         <>
+        <Helmet>
+            <title>{seoData[currentCountry].title}</title>
+            <meta name="description" content={seoData[currentCountry].desc} />
+            <meta name="robots" content="index, follow" />
+        </Helmet>
+
         <Topnavbar/>
         <Banner bannerBackgroundImage={ServicesBanner} bannerTitle={"Our Services"}/>
         <div className="countryTabs">

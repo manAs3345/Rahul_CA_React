@@ -85,7 +85,7 @@ export function ServiceDetailsUSOutsourcing() {
                 </ul>
               </section>
             </div>
-            <KnowMoreLinker navRoute="/services" linkText="explore more services"/>
+            <KnowMoreLinker navRoute="/services" linkText="explore more services" pageValue="services"/>
             <Footer/>
         </>
     );

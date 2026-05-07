@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.16ca90d6.css",
-    "main.js": "/static/js/main.b7c57204.js",
-    "static/js/453.652580ae.chunk.js": "/static/js/453.652580ae.chunk.js",
+    "main.css": "/static/css/main.6bb5b24c.css",
+    "main.js": "/static/js/main.4101f297.js",
+    "static/js/453.9854ab2c.chunk.js": "/static/js/453.9854ab2c.chunk.js",
     "static/media/services_bg.jpg": "/static/media/services_bg.fd10e629a230a9341b4c.jpg",
     "static/media/founder.jpg": "/static/media/founder.544635aeb97ce261176d.jpg",
     "static/media/contact_section.jpg": "/static/media/contact_section.c5c820ba235c26065337.jpg",
     "static/media/service_details.jpg": "/static/media/service_details.ab217c1e17e3f290d96d.jpg",
-    "static/media/homepage_cta.png": "/static/media/homepage_cta.df9d32333dcf25290282.png",
     "static/media/popularService_Accounting.jpg": "/static/media/popularService_Accounting.627b08206e1e172baf8a.jpg",
     "static/media/popularService_BusinessAdvisory.jpg": "/static/media/popularService_BusinessAdvisory.e5f3298161d27da9b4a4.jpg",
     "static/media/popularService_audit.jpg": "/static/media/popularService_audit.a7fc8c5a2e22019cc19f.jpg",
@@ -28,22 +27,22 @@
     "static/media/taxes.png": "/static/media/taxes.86e33f1e8fc81575970a.png",
     "static/media/customer-service.png": "/static/media/customer-service.a585a0163c38c5081e51.png",
     "static/media/accounting.png": "/static/media/accounting.9b9e11624095287367f2.png",
+    "static/media/process.png": "/static/media/process.2cad3be94ed928fea7d2.png",
     "static/media/checked.png": "/static/media/checked.51db8b64bf5746f9a245.png",
     "static/media/ba.png": "/static/media/ba.ece88aec8b75f9dc52ea.png",
     "static/media/warning.png": "/static/media/warning.2a25574ab332e41cf691.png",
+    "static/media/user.png": "/static/media/user.a84f1fcf0bf6bef83a09.png",
     "static/media/setting.png": "/static/media/setting.a894d35a0c60a8fb47e7.png",
+    "static/media/people.png": "/static/media/people.00491e76e09b3512c8ea.png",
     "static/media/graduation.png": "/static/media/graduation.9e87da1ddbdad632d4d8.png",
     "static/media/uae.png": "/static/media/uae.db306b0a546a6dd52e2c.png",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.16ca90d6.css.map": "/static/css/main.16ca90d6.css.map",
-    "main.b7c57204.js.map": "/static/js/main.b7c57204.js.map",
-    "453.652580ae.chunk.js.map": "/static/js/453.652580ae.chunk.js.map"
+    "main.6bb5b24c.css.map": "/static/css/main.6bb5b24c.css.map",
+    "main.4101f297.js.map": "/static/js/main.4101f297.js.map",
+    "453.9854ab2c.chunk.js.map": "/static/js/453.9854ab2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16ca90d6.css",
-    "static/js/main.b7c57204.js"
+    "static/css/main.6bb5b24c.css",
+    "static/js/main.4101f297.js"
   ]
 }

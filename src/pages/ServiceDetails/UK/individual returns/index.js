@@ -57,7 +57,7 @@ export function IndividualReturnsUK(){
                     <li>Personalized support from qualified Chartered Accountants</li>
                 </ul>
             </div>
-            <KnowMoreLinker navRoute="/services" linkText="explore more services"/>
+            <KnowMoreLinker navRoute="/services" linkText="explore more services" pageValue="services"/>
         </div>
         <Footer/>
         </>

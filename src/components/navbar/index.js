@@ -53,30 +53,10 @@ export function Topnavbar(){
                 }
             })
         }
-        if(currentPage == 'about'){
-            var elems = document.querySelectorAll("#navbar-tabs > a");
-            elems.forEach((element,index)=>{
-                if(index == 1){
-                    element.setAttribute("id","active");
-                }else{
-                    element.setAttribute("id","inactive");
-                }
-            })
-        }
         if(currentPage == 'services'){
             var elems = document.querySelectorAll("#navbar-tabs > a");
             elems.forEach((element,index)=>{
-                if(index == 3){
-                    elems[index].setAttribute("id","active");
-                }else{
-                    element.setAttribute("id","inactive");
-                }
-            })
-        }
-        if(currentPage == 'contact'){
-            var elems = document.querySelectorAll("#navbar-tabs > a");
-            elems.forEach((element,index)=>{
-                if(index == 4){
+                if(index == 1){
                     elems[index].setAttribute("id","active");
                 }else{
                     element.setAttribute("id","inactive");
@@ -93,6 +73,27 @@ export function Topnavbar(){
                 }
             })
         }
+        if(currentPage == 'about'){
+            var elems = document.querySelectorAll("#navbar-tabs > a");
+            elems.forEach((element,index)=>{
+                if(index == 3){
+                    element.setAttribute("id","active");
+                }else{
+                    element.setAttribute("id","inactive");
+                }
+            })
+        }
+        if(currentPage == 'contact'){
+            var elems = document.querySelectorAll("#navbar-tabs > a");
+            elems.forEach((element,index)=>{
+                if(index == 4){
+                    elems[index].setAttribute("id","active");
+                }else{
+                    element.setAttribute("id","inactive");
+                }
+            })
+        }
+        
     
         
     },[currentPage])
@@ -117,9 +118,9 @@ export function Topnavbar(){
             </div>
             <div id='navbar-tabs'>
                 <Link to="/" onClick={()=>{setCurrentPage("home")}} className='home'>Home</Link>
-                <Link to="/about" onClick={()=>{setCurrentPage("about")}} className='about'>About Us</Link>
-                <Link to="/special-services" onClick={()=>{setCurrentPage("special-services")}} className='special-services'>Special Services</Link>
                 <Link to="/services" onClick={()=>{setCurrentPage("services")}} className='services'>Our Services</Link>
+                <Link to="/special-services" onClick={()=>{setCurrentPage("special-services")}} className='special-services'>Special Services</Link>
+                <Link to="/about" onClick={()=>{setCurrentPage("about")}} className='about'>About Us</Link>
                 <Link to="/contact" onClick={()=>{setCurrentPage("contact")}} className='contact'>Contact Us</Link>
             </div>
         </div>

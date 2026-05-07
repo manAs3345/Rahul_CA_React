@@ -9,9 +9,33 @@ import warningIcon from '../../images/warning.png';
 import tickIcon from '../../images/checked.png';
 import targetIcon from "../../images/target.png";
 
+import { Helmet } from "react-helmet";
+
+import reason1Icon from "../../images/user.png";
+import reason2Icon from "../../images/portfolio.png";
+import reason3Icon from "../../images/process.png";
+import reason4Icon from "../../images/flow-chart.png";
+import reason5Icon from "../../images/people.png";
+import { KnowMoreLinker } from '../../components/more';
+
 export function SpecialServices(){
     return(
         <>
+            <Helmet>
+                <title>Outsourced Accounting & VAT Filing Services | ₹1,999/month</title>
+
+                <meta 
+                    name="description" 
+                    content="Affordable outsourced accounting, VAT/GST filing and bookkeeping services for UAE, UK, Singapore, Australia and global businesses starting at ₹1,999/month." 
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://yourdomain.com/special-services" />
+
+                <meta property="og:title" content="Outsourced Accounting & VAT Filing from India | ₹1,999/month" />
+                <meta property="og:description" content="Reduce accounting costs by up to 70% with structured offshore accounting services." />
+            </Helmet>
             <Topnavbar/>
             <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"Global Accounting and VAT/GST Filing at Just ₹1,999 per Month"} bannerSubText={"Reduce your accounting costs by up to 70% with a structured, process-driven offshore team from India."}/>
             <div className='part1'>
@@ -93,7 +117,7 @@ export function SpecialServices(){
                         <li>Suitable for higher volume / complex cases</li>
                     </ul>
                     <br/>
-                    <p>* Designed for businesses requiring detailed support and handling of larger or complex operations.</p>
+                    <p>* Designed for businesses requiring detailed support and handeling of larger or complex operations.</p>
                 </div>
             </div>
             <div className='important-section'>
@@ -109,17 +133,25 @@ export function SpecialServices(){
             <div className='final-section'>
                 <div className="choose-us-div final-section-div">
                     <h1>Why Choose Us?</h1>
-                    <ul>
+                    <div className="reasons-section">
+                        <div className="reason-container"><img src={reason1Icon} alt="Reason 1" className="reason-icon"/> <p>Chartered Accountants (India)</p></div>
+                        <div className="reason-container"><img src={reason2Icon} alt="Reason 2" className="reason-icon"/> <p><span className="emphasis">20+ years</span> experience</p></div>
+                        <div className="reason-container"><img src={reason3Icon} alt="Reason 3" className="reason-icon"/> <p>Process-driven system</p></div>
+                        <div className="reason-container"><img src={reason4Icon} alt="Reason 4" className="reason-icon"/> <p>Cost-efficient model</p></div>
+                        <div className="reason-container"><img src={reason5Icon} alt="Reason 5" className="reason-icon"/> <p>Scalable team</p></div>
+                    </div>
+                    {/* <ul>
                         <li>Chartered Accountants (India)</li>
                         <li>20+ years experience</li>
                         <li>Process-driven system</li>
                         <li>Cost-efficient model</li>
                         <li>Scalable team</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className="different-div final-section-div">
                     <h1>Why we are different?</h1>
                     <p>We are not just another accounting firm.</p>
+                    <br/>
                     <p>We provide:</p>
                     <div className="target-section">
                         <img src={targetIcon}></img>
@@ -127,6 +159,8 @@ export function SpecialServices(){
                             <p><b>System + Process + Execution</b></p>
                             <p>That is why we can deliver at lower cost.</p>
                         </div>
+                        <KnowMoreLinker linkText={"Reach out to us NOW!"} navRoute={"/contact"} pageValue={"contact"}/>
+                        
                     </div>
                     
                 </div>

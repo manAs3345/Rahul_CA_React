@@ -66,7 +66,7 @@
 }
 
 .hero-button {
-    background-color: #083d5f; /* Deep blue - matches your theme */
+    background-color: #081f2d; /* Deep blue - matches your theme */
     color: white;
     padding: 12px 24px;
     font-size: 1rem;
@@ -80,7 +80,8 @@
 }
 
 .secondary-button {
-    background-color: #3d5725; /* Deep blue - matches your theme */
+     /* Deep blue - matches your theme */
+    background-color: #2e4218;
     color: white;
     padding: 12px 24px;
     font-size: 1rem;
@@ -94,7 +95,13 @@
 }
 
 .hero-button:hover {
-    background-color: #081f2d; /* Darker blue on hover */
+    background-color: #083d5f; /* Darker blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.secondary-button:hover {
+    background-color: #3d5725;
     transform: translateY(-2px);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;

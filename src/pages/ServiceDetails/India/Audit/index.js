@@ -47,7 +47,7 @@ export function ServiceDetailsAudit(){
             
                 </ol>
             </div>
-            <KnowMoreLinker linkText={"explore more services"} navRoute={"/services"}/>
+            <KnowMoreLinker navRoute="/services" linkText="explore more services" pageValue="services"/>
             <Footer/>
         </>
         

@@ -10,20 +10,21 @@ import IdeaIcon from '../../images/idea.png';
 import CustomerServiceIcon from '../../images/customer-service.png';
 import CustomerSatisfactionIcon from '../../images/customer-satisfaction.png';
 import { PopularService } from "../../components/popularService";
-import TaxationIcon from '../../images/taxes.png';
-import HomePageBannerImage from '../../images/homepage_cta.png';
+// import TaxationIcon from '../../images/taxes.png';
+// import HomePageBannerImage from '../../images/homepage_cta.png';
 import OfficePeopleImage from '../../images/office_people.jpg';
 import popularServiceAudit from '../../images/popularService_audit.jpg';
 import popularServiceBA from '../../images/popularService_BusinessAdvisory.jpg';
 import popularServiceAccounting from '../../images/popularService_Accounting.jpg';
 import contactBannerImg from '../../images/contact_section.jpg';
+import { Helmet } from "react-helmet";
 
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 // import Slider from "react-slick";
 
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+// import Carousel from 'react-multi-carousel';
+// import 'react-multi-carousel/lib/styles.css';
 
 import { Footer } from "../../components/footer";
 import { BannerImageText } from "../../components/bannerImageText";
@@ -77,67 +78,74 @@ export function Home(){
     //     ]
     //   };
 
-    const responsive = {
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 1,
-          slidesToSlide: 1 // optional, default to 1.
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 1,
-          slidesToSlide: 1 // optional, default to 1.
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1,
-          slidesToSlide: 1 // optional, default to 1.
-        }
-      };
+    // const responsive = {
+    //     desktop: {
+    //       breakpoint: { max: 3000, min: 1024 },
+    //       items: 1,
+    //       slidesToSlide: 1 // optional, default to 1.
+    //     },
+    //     tablet: {
+    //       breakpoint: { max: 1024, min: 464 },
+    //       items: 1,
+    //       slidesToSlide: 1 // optional, default to 1.
+    //     },
+    //     mobile: {
+    //       breakpoint: { max: 464, min: 0 },
+    //       items: 1,
+    //       slidesToSlide: 1 // optional, default to 1.
+    //     }
+    //   };
       let {currentPage,setCurrentPage} = useContext(PagesContext);
     
     return(
         <>
+            
+            <link
+        rel="canonical"
+        href="https://yourdomain.com/"
+    />
+   
             <Topnavbar/>
             {/* <Slider {...settings}>
                 <HomePageBanner homeBannerTitle="Welcome to R V Somani & Co. , your trusted partner in financial excellence" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {HomePageBannerImage}/>
                 <HomePageBanner homeBannerTitle="We aim to go beyond the horizon, with services not only in India but also in Dubai" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {OfficePeopleImage}/>
             </Slider> */}
-
-<section id="hero-section">
-                <div className="hero-overlay">
-                    <div className="hero-content">
-                        <h1>Empowering Financial Success Globally</h1>
-                        <p>Delivering trusted Chartered Accountancy services across <strong>India</strong>, <strong>UAE</strong>, <strong>UK</strong> and <strong>the USA</strong>.</p>
-                        <div className="hero-buttons">
-                            <Link to="/services" className="hero-button primary" onClick={()=>{setCurrentPage('services')}}>Explore Services</Link>
-                            <Link to="/contact" className="hero-button secondary" onClick={()=>{setCurrentPage('contact')}}>Contact Us</Link>
-                            <Link to="/special-services" className="secondary-button" onClick={()=>{setCurrentPage('special-services')}}> Accounting and filing services for Rs. 1999 only</Link>
+            <main>
+                <section id="hero-section">
+                    <div className="hero-overlay">
+                        <div className="hero-content">
+                            <h1>Empowering Financial Success Globally</h1>
+                            <p>Delivering trusted Chartered Accountancy services across <strong>India</strong>, <strong>UAE</strong>, <strong>UK</strong> and <strong>the USA</strong>.</p>
+                            <div className="hero-buttons">
+                                <Link to="/services" className="hero-button primary" onClick={()=>{setCurrentPage('services')}}>Explore Services</Link>
+                                <Link to="/contact" className="hero-button secondary" onClick={()=>{setCurrentPage('contact')}}>Contact Us</Link>
+                                <Link to="/special-services" className="secondary-button" onClick={()=>{setCurrentPage('special-services')}}> Accounting and filing services for Rs. 1999 only</Link>
+                            </div>
                         </div>
                     </div>
+                </section>
+                
+                <div>
+                    <h2 id="sub-heading">Why Choose Us?</h2>
+                    <div id="advantage-container">
+                        <AdvantageSection advantageImage={RatingIcon} advantageTitle={advTitle1} advantageDescription={advDesc1}/>
+                        <AdvantageSection advantageImage={IdeaIcon} advantageTitle={advTitle2} advantageDescription={advDesc2}/>
+                        <AdvantageSection advantageImage={CustomerServiceIcon} advantageTitle={advTitle3} advantageDescription={advDesc3}/>
+                        <AdvantageSection advantageImage={CustomerSatisfactionIcon} advantageTitle={advTitle4} advantageDescription={advDesc4}/>
+                    </div>
+                    <h2 id="sub-heading">Popular Services</h2>
+                    <div id="popular-services-container">
+                        <PopularService popularServiceImg={OfficePeopleImage} popularServiceName={ps1} popularServiceDescription={psd1} popularServiceRouteName="taxation"/>
+                        <PopularService popularServiceImg={popularServiceAudit} popularServiceName={ps2} popularServiceDescription={psd2} popularServiceRouteName="audit"/>
+                        <PopularService popularServiceImg={popularServiceBA} popularServiceName={ps3} popularServiceDescription={psd3} popularServiceRouteName="ba"/>
+                        <PopularService popularServiceImg={popularServiceAccounting} popularServiceName={ps4} popularServiceDescription={psd4} popularServiceRouteName="accounting"/>
+                    </div>
+                    <h2 id="sub-heading">Want to reach out to us?</h2>
+                    <div id="reach-out-container">
+                        <BannerImageText Image={contactBannerImg} bannerHeading="Don't worry! We're here!" bannerSubText={bannerSettings} bannerButtonText="Contact Us" buttonLinkPath='/contact'/>
+                    </div>
                 </div>
-            </section>
-            
-            <div>
-                <h1 id="sub-heading">Why Choose Us?</h1>
-                <div id="advantage-container">
-                    <AdvantageSection advantageImage={RatingIcon} advantageTitle={advTitle1} advantageDescription={advDesc1}/>
-                    <AdvantageSection advantageImage={IdeaIcon} advantageTitle={advTitle2} advantageDescription={advDesc2}/>
-                    <AdvantageSection advantageImage={CustomerServiceIcon} advantageTitle={advTitle3} advantageDescription={advDesc3}/>
-                    <AdvantageSection advantageImage={CustomerSatisfactionIcon} advantageTitle={advTitle4} advantageDescription={advDesc4}/>
-                </div>
-                <h1 id="sub-heading">Popular Services</h1>
-                <div id="popular-services-container">
-                    <PopularService popularServiceImg={OfficePeopleImage} popularServiceName={ps1} popularServiceDescription={psd1} popularServiceRouteName="taxation"/>
-                    <PopularService popularServiceImg={popularServiceAudit} popularServiceName={ps2} popularServiceDescription={psd2} popularServiceRouteName="audit"/>
-                    <PopularService popularServiceImg={popularServiceBA} popularServiceName={ps3} popularServiceDescription={psd3} popularServiceRouteName="ba"/>
-                    <PopularService popularServiceImg={popularServiceAccounting} popularServiceName={ps4} popularServiceDescription={psd4} popularServiceRouteName="accounting"/>
-                </div>
-                <h1 id="sub-heading">Want to reach out to us?</h1>
-                <div id="reach-out-container">
-                    <BannerImageText Image={contactBannerImg} bannerHeading="Don't worry! We're here!" bannerSubText={bannerSettings} bannerButtonText="Contact Us" buttonLinkPath='/contact'/>
-                </div>
-            </div>
+            </main>
             <Footer/>
         </>
     );

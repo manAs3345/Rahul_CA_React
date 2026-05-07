@@ -28,7 +28,7 @@ export function ServiceDetailsUAECorporate() {
                 </ul>
               </ol>
             </div>
-            <KnowMoreLinker navRoute="/services" linkText="explore more services"/>
+            <KnowMoreLinker navRoute="/services" linkText="explore more services" pageValue="services"/>
             <Footer/>
         </>
     );

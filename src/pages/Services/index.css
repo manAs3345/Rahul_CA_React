@@ -3,6 +3,12 @@
     grid-template-columns: 0.4fr 0.4fr;
     justify-content: center;
 }
+.service-hidden{
+    visibility: hidden;
+}
+.service-visible{
+    visibility: visible;
+}
 #country-form{
     display: flex;
     justify-content: center;
