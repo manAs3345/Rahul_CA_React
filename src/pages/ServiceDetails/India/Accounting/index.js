@@ -5,10 +5,13 @@ import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import './index.css';
 import { KnowMoreLinker } from "../../../../components/more";
+import {Helmet} from "react-helmet";
+import { SEO } from "../../../../components/serviceDetailsSEO";
 
 export function ServiceDetailsAccounting(){
     return(
         <>
+            <SEO serviceName={"AccountingIndia"}/>
             <Topnavbar/>
             <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"Accounting"} bannerSubText={"Streamline financial processes with professional accounting services."}/>
             <div className="taxationServiceContainer">

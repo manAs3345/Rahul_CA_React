@@ -131,6 +131,7 @@
     }
     #sub-heading{
         margin-bottom: 20px;
+        margin-left: 20px;
     }
     #popular-services-container{
         grid-template-columns: 1fr;

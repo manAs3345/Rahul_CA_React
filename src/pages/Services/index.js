@@ -101,9 +101,51 @@ export function Services(){
     return(
         <>
         <Helmet>
-            <title>{seoData[currentCountry].title}</title>
-            <meta name="description" content={seoData[currentCountry].desc} />
+            {/* Primary SEO */}
+            <title>{seoData[currentCountry].title} | R V Somani & Co | Global CA Firm</title>
+            <meta name="description" content={seoData[currentCountry].desc + " Trusted Chartered Accountants offering affordable global outsourcing, taxation, audit, GST, and advisory services."} />
+
+            <meta 
+                name="keywords" 
+                content="
+                chartered accountant services,
+                CA firm India,
+                global accounting firm,
+                affordable accounting services,
+                taxation services India,
+                GST compliance services,
+                audit and assurance services,
+                business advisory services,
+                accounting outsourcing India,
+                UAE accounting services,
+                UK tax return services,
+                US accounting outsourcing,
+                Australia accounting services,
+                international CA firm,
+                outsourced bookkeeping services
+                "
+            />
+
+            {/* Indexing */}
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://yourdomain.com/services" />
+
+            {/* Open Graph (for WhatsApp, LinkedIn, Facebook) */}
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content={`${seoData[currentCountry].title} | Global CA Services`} />
+            <meta property="og:description" content={seoData[currentCountry].desc} />
+            <meta property="og:image" content="https://yourdomain.com/og-services.jpg" />
+            <meta property="og:url" content="https://yourdomain.com/services" />
+
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content={`${seoData[currentCountry].title}`} />
+            <meta name="twitter:description" content={seoData[currentCountry].desc} />
+            <meta name="twitter:image" content="https://yourdomain.com/og-services.jpg" />
+
+            {/* Extra SEO hint */}
+            <meta name="author" content="R V Somani & Co" />
+            <meta name="language" content="en" />
         </Helmet>
 
         <Topnavbar/>

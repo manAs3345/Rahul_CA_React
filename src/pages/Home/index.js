@@ -99,12 +99,71 @@ export function Home(){
     
     return(
         <>
-            
-            <link
-        rel="canonical"
-        href="https://yourdomain.com/"
-    />
-   
+            <Helmet>
+                {/* Primary SEO */}
+                <title>R V Somani & Co. - Trusted Chartered Accountants</title>
+
+                <meta
+                    name="description"
+                    content="R V Somani & Co. is an affordable global CA firm providing outsourced accounting, bookkeeping, tax filing, audit, GST/VAT compliance and business advisory services for startups and businesses worldwide including India, UAE, UK and USA."
+                />
+
+                <meta
+                    name="keywords"
+                    content="global CA firm, affordable CA services, outsourced accounting services, bookkeeping services, offshore accounting, GST filing, VAT filing, audit services, tax consultants, accounting firm India, UAE accounting services, UK bookkeeping services, USA accounting support, business advisory services"
+                />
+
+                <meta
+                    name="robots"
+                    content="index, follow, max-image-preview:large"
+                />
+
+                <meta
+                    name="author"
+                    content="R V Somani & Co."
+                />
+
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+
+                <link
+                    rel="canonical"
+                    href="https://yourdomain.com/"
+                />
+
+                <meta
+                    property="og:type"
+                    content="website"
+                />
+
+                <meta
+                    property="og:title"
+                    content="Affordable Global CA Services for Businesses Worldwide"
+                />
+
+                <meta
+                    property="og:description"
+                    content="Trusted outsourced accounting, bookkeeping, audit, tax and GST/VAT filing services for businesses in India, UAE, UK, USA and globally."
+                />
+
+                <meta
+                    property="og:url"
+                    content="https://yourdomain.com/"
+                />
+
+                <meta
+                    property="og:image"
+                    content="https://yourdomain.com/images/global-ca-services-banner.jpg"
+                />
+
+                <meta
+                    property="og:site_name"
+                    content="R V Somani & Co."
+                />
+
+            </Helmet>
             <Topnavbar/>
             {/* <Slider {...settings}>
                 <HomePageBanner homeBannerTitle="Welcome to R V Somani & Co. , your trusted partner in financial excellence" button1Text = "Find out more" button2Text = "Our Services" bannerImage = {HomePageBannerImage}/>

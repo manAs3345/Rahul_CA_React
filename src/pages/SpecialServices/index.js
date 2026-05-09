@@ -30,7 +30,10 @@ export function SpecialServices(){
                 />
 
                 <meta name="robots" content="index, follow" />
-
+                <meta
+                    name="keywords"
+                    content="global CA services, outsourced accounting, bookkeeping services, VAT filing, GST filing, offshore accounting, affordable accounting firm, payroll services, tax compliance, virtual accountant, UAE accounting services, UK bookkeeping, Singapore accounting, Australia bookkeeping"
+                />
                 <link rel="canonical" href="https://yourdomain.com/special-services" />
 
                 <meta property="og:title" content="Outsourced Accounting & VAT Filing from India | ₹1,999/month" />
@@ -82,7 +85,8 @@ export function SpecialServices(){
                 </div>
             </div>
             <p class="simple-statement"><b>Simple. Structured. Reliable.</b></p>
-            <div className="plans-section">
+            <div className='part2'>
+                <div className="plans-section">
                 <div className='plan1 plan'>
                     <h1 className="blue">Starter Plan</h1>
                     <h1 className="blue">&#8377;1999/month</h1>
@@ -166,6 +170,8 @@ export function SpecialServices(){
                 </div>
                 
             </div>
+            </div>
+            
             <Footer/>
         </>
     );

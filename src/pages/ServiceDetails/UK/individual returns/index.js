@@ -5,10 +5,12 @@ import serviceBannerImage from '../../../../images/service_details.jpg';
 import { Topnavbar } from '../../../../components/navbar';
 import { Footer } from '../../../../components/footer';
 import { KnowMoreLinker } from '../../../../components/more';
+import { SEO } from '../../../../components/serviceDetailsSEO';
 
 export function IndividualReturnsUK(){
     return(
         <>
+        <SEO serviceName="IndividualReturnsUK"/>
         <Topnavbar/>
         <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"Individual Returns"} bannerSubText={"We help individuals file their income tax returns accurately and on time."}/>
         <div className="individual-returns-uk">

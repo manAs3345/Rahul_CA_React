@@ -1,0 +1,95 @@
+{
+    "AccountingIndia":{
+        "title": "Accounting Services in India | Casomani",
+        "description": "Professional bookkeeping, payroll and financial reporting services for businesses in India.",
+        "keywords": "accounting services India, bookkeeping India, payroll services India, outsourced accounting India, financial reporting India",
+        "url": "https://casomani.com/serviceDetails/india/accounting"
+
+    },
+    "AuditAssuranceIndia":{
+        "title": "Audit & Assurance Services in India | Statutory, Internal & Forensic Audit",
+        "description": "Professional audit and assurance services in India including statutory audit, internal audit, compliance audit, forensic audit, and special purpose audits to ensure accuracy, transparency, and regulatory compliance.",
+        "keywords": "audit and assurance services India, statutory audit India, internal audit services, forensic audit India, compliance audit services, special purpose audit, financial audit services, CA audit services India, risk management audit, corporate audit services",
+        "url": "https://casomani.com/serviceDetails/india/audit"
+
+    },
+    "BussinessAdvisoryIndia":{
+        "title": "Business Advisory Services in India | Financial Planning & Growth Strategy",
+        "description": "Strategic business advisory services in India including financial planning, risk management, restructuring, and consulting to help businesses improve performance, manage risks, and achieve sustainable growth.",
+        "keywords": "business advisory services India, financial planning services, risk management consulting, strategic business consulting India, financial restructuring services, corporate advisory services, business growth strategy, CA advisory services India, financial analysis consulting, management consulting India",
+        "url": "https://casomani.com/serviceDetails/india/ba"
+    },
+    "GSTIndia":{
+        "title": "GST & Compliance Services in India | Registration, Filing & Advisory",
+        "description": "Professional GST and compliance services in India including GST registration, filing, advisory, audits, customs compliance, and legal regulatory support for businesses and startups.",
+        "keywords": "GST services India, GST registration India, GST filing services, GST compliance services, GST advisory India, tax compliance services, customs and excise compliance, legal compliance services India, CA GST services, regulatory compliance consulting",
+        "url": "https://casomani.com/serviceDetails/india/gst"
+    },
+    "TaxationIndia":{
+        "title": "Taxation Services in India | Tax Planning, ITR Filing & GST Support",
+        "description": "Professional taxation services in India including tax planning, income tax return filing, GST services, and compliance support to help individuals and businesses minimize tax liabilities and stay compliant.",
+        "keywords": "taxation services India, tax planning India, income tax return filing, ITR filing services, GST services India, tax consultancy India, tax advisory services, CA taxation services, tax compliance India, corporate tax services India, personal tax filing India",
+        "url": "https://casomani.com/serviceDetails/india/taxation"
+    },
+    "AdvisoryAssuranceUAE":{
+        "title":"Advisory & Assurance Services in UAE | Internal Audit & Financial Advisory",
+        "description":"Professional advisory and assurance services in UAE including internal audits, due diligence, and financial advisory solutions to help businesses manage risks, improve governance, and support strategic growth.",
+        "keywords":"advisory and assurance services UAE, internal audit UAE, financial advisory UAE, due diligence services UAE, audit consulting UAE, risk management UAE, corporate advisory UAE, business assurance services Dubai, financial consulting UAE, outsourced audit services UAE",
+        "url":"https://casomani.com/serviceDetails/uae/aa"
+    },
+    "CorporateUAE":{
+        "title":"Corporate Services in UAE | Company Formation & Trade License Support",
+        "description":"Professional corporate services in UAE including company formation, trade license renewal, and corporate secretarial services to help businesses establish and manage operations smoothly.",
+        "keywords":"corporate services UAE, company formation UAE, business setup UAE, trade license renewal Dubai, corporate secretarial services UAE, LLC company setup UAE, free zone company formation, offshore company setup UAE, business registration Dubai, corporate compliance UAE",
+        "url":"https://casomani.com/serviceDetails/uae/corporate"
+    },
+    "OutsourcingUAE":{
+        "title":"Accounting & Tax Outsourcing Services in UAE | Bookkeeping, VAT & BPM",
+        "description":"Affordable outsourcing services in UAE including accounting, bookkeeping, VAT compliance, corporate tax support, and business process management for SMEs and global businesses.",
+        "keywords":"accounting outsourcing UAE, bookkeeping services UAE, VAT compliance UAE, corporate tax UAE, outsourced accounting Dubai, business process outsourcing UAE, finance outsourcing UAE, accounting services Dubai, tax outsourcing UAE, SME accounting UAE, BPM services UAE, outsourced bookkeeping UAE",
+        "url":"https://casomani.com/serviceDetails/uae/outsourcing"
+    },
+    "TaxationUAE":{
+        "title":"Taxation Services in UAE | VAT Compliance & Corporate Tax Advisory",
+        "description":"Professional taxation services in UAE including VAT compliance, corporate tax advisory, excise tax support, and tax filing services to help businesses stay compliant and optimize tax efficiency.",
+        "keywords":"taxation services UAE, VAT compliance UAE, corporate tax advisory UAE, VAT registration Dubai, tax filing services UAE, excise tax UAE, UAE tax consultants, corporate tax services Dubai, VAT return filing UAE, tax compliance UAE",
+        "url":"https://casomani.com/serviceDetails/uae/taxation"
+    },
+    "IndividualReturnsUK":{
+        "title":"UK Individual Tax Return Filing Services | Self Assessment & HMRC Support",
+        "description":"Affordable UK individual tax return filing services including Self Assessment (SA100), HMRC support, foreign income reporting, DTAA guidance, and tax compliance assistance for NRIs and UK residents.",
+        "keywords":"UK tax return filing services, Self Assessment tax return UK, HMRC tax filing support, SA100 filing services, UK tax consultants India, NRI UK tax filing, DTAA India UK, foreign income reporting UK, UK individual tax return services, affordable UK tax filing",
+        "url":"https://casomani.com/serviceDetails/uk/individualReturns"
+    },
+    "OutsourcingUK":{
+        "title":"UK Individual Tax Return Filing Services | Self Assessment & HMRC Support",
+        "description:":"Affordable UK individual tax return filing services including Self Assessment (SA100), HMRC support, foreign income reporting, DTAA guidance, and tax compliance assistance for NRIs and UK residents.",
+        "keywords":"UK tax return filing services, Self Assessment tax return UK, HMRC tax filing support, SA100 filing services, UK tax consultants India, NRI UK tax filing, DTAA India UK, foreign income reporting UK, UK individual tax return services, affordable UK tax filing",
+        "url":"https://casomani.com/serviceDetails/uk/individualReturns"
+    },
+    "IndividualReturnsUS":{
+        "title":"UK Individual Tax Return Filing Services | Self Assessment & HMRC Support",
+        "description":"Affordable UK individual tax return filing services including Self Assessment (SA100), HMRC support, foreign income reporting, DTAA guidance, and tax compliance assistance for NRIs and UK residents.",
+        "keywords":"UK tax return filing services, Self Assessment tax return UK, HMRC tax filing support, SA100 filing services, UK tax consultants India, NRI UK tax filing, DTAA India UK, foreign income reporting UK, UK individual tax return services, affordable UK tax filing",
+        "url":"https://casomani.com/serviceDetails/us/individualReturns"
+    },
+    "OusourcingUS":{
+        "title":"Accounting & Tax Outsourcing Services in USA | Bookkeeping & BPM Solutions",
+        "description:":"Affordable accounting and tax outsourcing services in USA including bookkeeping, financial management, compliance support, and business process management solutions for SMEs and growing businesses.",
+        "keywords":"accounting outsourcing USA, bookkeeping services USA, tax outsourcing USA, outsourced accounting services USA, finance outsourcing USA, business process outsourcing USA, BPM services USA, SME accounting services USA, outsourced bookkeeping USA, accounting compliance services USA",
+        "url":"https://casomani.com/serviceDetails/us/outsourcing"
+    },
+    "IndividualReturnsAUS":{
+        "title":"UK Individual Tax Return Filing Services | Self Assessment & HMRC Support",
+        "description":"Affordable UK individual tax return filing services including Self Assessment (SA100), HMRC support, foreign income reporting, DTAA guidance, and tax compliance assistance for NRIs and UK residents.",
+        "keywords":"UK tax return filing services, Self Assessment tax return UK, HMRC tax filing support, SA100 filing services, UK tax consultants India, NRI UK tax filing, DTAA India UK, foreign income reporting UK, UK individual tax return services, affordable UK tax filing",
+        "url":"https://casomani.com/serviceDetails/aus/individualReturns"
+    },
+    "OusourcingAUS":{
+        "title":"Accounting & Tax Outsourcing Services in Australia | Bookkeeping & BPM",
+        "description:":"Affordable accounting and tax outsourcing services in Australia including bookkeeping, compliance support, financial management, and business process outsourcing solutions for SMEs and growing businesses.",
+        "keywords":"accounting outsourcing Australia, bookkeeping services Australia, tax outsourcing Australia, outsourced accounting Australia, finance outsourcing Australia, business process outsourcing Australia, BPM services Australia, SME accounting Australia, outsourced bookkeeping Australia, accounting compliance services Australia",
+        "url":"https://casomani.com/serviceDetails/aus/outsourcing"
+    }
+
+}

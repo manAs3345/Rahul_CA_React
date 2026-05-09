@@ -142,5 +142,14 @@
     .plans-section,.part1,.final-section{
         grid-template-columns: 1fr;
     }
-    
+    .important-section-pts{
+        flex-direction: column;
+    }
+    .reasons-section{
+        display:flex;
+        flex-direction: column;
+    }
+    .reason-container > .reason-icon{
+        width: 10%;
+    }
 }

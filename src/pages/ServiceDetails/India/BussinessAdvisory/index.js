@@ -5,10 +5,12 @@ import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import './index.css';
 import { KnowMoreLinker } from "../../../../components/more";
+import { SEO } from "../../../../components/serviceDetailsSEO";
 
 export function ServiceDetailsBA(){
     return(
         <>
+            <SEO serviceName={"BusinessAdvisoryIndia"}/>
             <Topnavbar/>
             <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"Business Advisory"} bannerSubText={"Unlock growth opportunities with strategic business advisory services."}/>
             <div className="taxationServiceContainer">

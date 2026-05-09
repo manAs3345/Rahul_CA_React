@@ -5,10 +5,12 @@ import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import './index.css';
 import { KnowMoreLinker } from "../../../../components/more";
+import { SEO } from "../../../../components/serviceDetailsSEO";
 
 export function ServiceDetailsGST(){
     return(
         <>
+            <SEO serviceName={"GSTIndia"}/>
             <Topnavbar/>
             <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"GST and Compliance"} bannerSubText={"Navigate the complex landscape of GST and regulatory compliance."}/>
             <div className="taxationServiceContainer">

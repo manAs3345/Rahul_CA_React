@@ -5,10 +5,12 @@ import { Topnavbar } from "../../../../components/navbar";
 import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import { KnowMoreLinker } from "../../../../components/more";
+import { SEO } from "../../../../components/serviceDetailsSEO";
 
 export function ServiceDetailsUSOutsourcing() {
     return(
         <>
+            <SEO serviceName="OutsourcingUS"/>
             <Topnavbar/>
             <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"Outsourcing"} bannerSubText={"Streamline financial processes with professional accounting services."}/>
             <div className="outsourcingDetailsContainer">
@@ -22,7 +24,7 @@ export function ServiceDetailsUSOutsourcing() {
                   <li>Detailed MIS analysis with actionable insights for better decision-making</li>
                   <li>Assistance in VAT and Corporate Tax Compliance, drawing from our rich experience in managing more complex tax regimes like India's Service Tax, VAT, GST, and Income Tax</li>
                 </ul>
-                <p>Our experience handling more intricate Indian tax structures gives us a superior advantage in efficiently implementing UAE VAT and Corporate Tax regulations. We are proficient in Tally ERP, one of the most widely used accounting software solutions in the UAE, and can customize it to client-specific needs.</p>
+                <p>Our experience handling more intricate Indian tax structures gives us a superior advantage in efficiently implementing US VAT and Corporate Tax regulations. We are proficient in Tally ERP, one of the most widely used accounting software solutions in the US, and can customize it to client-specific needs.</p>
               </section>
               <section class="outsourcingDetails2 outsourcingSection">
                   <h1>Outsourcing Services - Business Process Management</h1>
@@ -70,7 +72,7 @@ export function ServiceDetailsUSOutsourcing() {
                       <li>Client-Centric Approach: We work as an extension of your team, adapting our processes to fit your business needs.</li>
                       <li>Confidentiality and Data Security: Our systems are designed to ensure strict confidentiality and data protection at every step.</li>
                       <li>Continuous Improvement: We regularly upgrade our technical skills, automate repetitive tasks, and introduce newer technologies to deliver smarter and faster services.</li>
-                      <li>Cost Efficiency: Significant savings on operational costs compared to maintaining an in-house team in the UAE.</li>
+                      <li>Cost Efficiency: Significant savings on operational costs compared to maintaining an in-house team in the US.</li>
                     </ul>
                   </div>
                 </div>

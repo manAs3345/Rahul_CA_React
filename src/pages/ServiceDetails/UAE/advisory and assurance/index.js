@@ -5,10 +5,12 @@ import { Topnavbar } from "../../../../components/navbar";
 import serviceBannerImage from "../../../../images/service_details.jpg";
 import { BannerSubText } from "../../../../components/bannerSubText";
 import { KnowMoreLinker } from "../../../../components/more";
+import { SEO } from "../../../../components/serviceDetailsSEO";
 
 export function ServiceDetailsUAEAA() {
     return(
         <>
+            <SEO serviceName={"AdvisoryAssuranceUAE"}/>
             <Topnavbar/>
             <BannerSubText bannerBackgroundImage={serviceBannerImage} bannerTitle={"Advisory and Assurance"} bannerSubText={"Ensure accuracy and compliance with our comprehensive audit and assurance services."}/>
             <h1>What do we help out with?</h1>
