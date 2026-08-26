@@ -34,7 +34,7 @@ export function SpecialServices(){
                     name="keywords"
                     content="global CA services, outsourced accounting, bookkeeping services, VAT filing, GST filing, offshore accounting, affordable accounting firm, payroll services, tax compliance, virtual accountant, UAE accounting services, UK bookkeeping, Singapore accounting, Australia bookkeeping"
                 />
-                <link rel="canonical" href="https://yourdomain.com/special-services" />
+                <link rel="canonical" href="https://casomani.com/special-services" />
 
                 <meta property="og:title" content="Outsourced Accounting & VAT Filing from India | ₹1,999/month" />
                 <meta property="og:description" content="Reduce accounting costs by up to 70% with structured offshore accounting services." />

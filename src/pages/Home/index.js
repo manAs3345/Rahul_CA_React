@@ -130,7 +130,7 @@ export function Home(){
 
                 <link
                     rel="canonical"
-                    href="https://yourdomain.com/"
+                    href="https://casomani.com/"
                 />
 
                 <meta
@@ -150,12 +150,12 @@ export function Home(){
 
                 <meta
                     property="og:url"
-                    content="https://yourdomain.com/"
+                    content="https://casomani.com/"
                 />
 
                 <meta
                     property="og:image"
-                    content="https://yourdomain.com/images/global-ca-services-banner.jpg"
+                    content="https://casomani.com/images/global-ca-services-banner.jpg"
                 />
 
                 <meta

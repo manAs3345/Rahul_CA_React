@@ -128,20 +128,20 @@ export function Services(){
 
             {/* Indexing */}
             <meta name="robots" content="index, follow" />
-            <link rel="canonical" href="https://yourdomain.com/services" />
+            <link rel="canonical" href="https://casomani.com/services" />
 
             {/* Open Graph (for WhatsApp, LinkedIn, Facebook) */}
             <meta property="og:type" content="website" />
             <meta property="og:title" content={`${seoData[currentCountry].title} | Global CA Services`} />
             <meta property="og:description" content={seoData[currentCountry].desc} />
-            <meta property="og:image" content="https://yourdomain.com/og-services.jpg" />
-            <meta property="og:url" content="https://yourdomain.com/services" />
+            <meta property="og:image" content="https://casomani.com/og-services.jpg" />
+            <meta property="og:url" content="https://casomani.com/services" />
 
             {/* Twitter Card */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content={`${seoData[currentCountry].title}`} />
             <meta name="twitter:description" content={seoData[currentCountry].desc} />
-            <meta name="twitter:image" content="https://yourdomain.com/og-services.jpg" />
+            <meta name="twitter:image" content="https://casomani.com/og-services.jpg" />
 
             {/* Extra SEO hint */}
             <meta name="author" content="R V Somani & Co" />
